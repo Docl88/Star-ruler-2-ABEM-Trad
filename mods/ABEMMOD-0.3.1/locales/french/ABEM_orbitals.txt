@@ -1,0 +1,61 @@
+ORB_SHIPYARD_DESC: <<
+	A massive orbital shipyard capable of constructing fleets in space.
+
+	Has 6 innate Labor generation per minute. Planets can export their own labor to shipyards within trade range at a 75% reduced rate.
+
+	Gains Labor from Metallurgy factory research at a 75% reduced rate.
+>>
+ORB_SHIELD_CHARGER: Power Transmitter
+ORB_SHIELD_CHARGER_BLURB: Recharges the shields of allied flagships in the system.
+ORB_SHIELD_CHARGER_DESC: <<
+	A series of powerful generators and emitters transmits additional power to any ships in need of it. This power is then harnessed to charge up the ships' shield capacitors. However, shield activity disrupts the transmission beam, so combat will prevent continued charging.
+	
+	Increases the out-of-combat shield recharge rate of all ships in the system by 25, plus 0.01% of the ships' shield capacity.
+>>
+ORB_TRADE_STATION_BLURB: Allows global trade to other commerce stations. Allows the purchase of resources with money. Gives money to nearby allied planets.
+ORB_TRADE_STATION_DESC: <<|
+	A large and bustling station of commerce allows global resource trade between any territories with Commerce Stations.
+	
+	In addition, on each Commerce Station you can purchase a quantity of research, energy, influence or labor in exchange for money every 3 minutes. Commerce Stations also generate 60k additional income on each allied planet in the system they are located in. Planets belonging to the station's owner are not affected by this.
+	
+	[i]Normally, planets in separated territories cannot export to each other. Construct a Commerce Station in both territories in order to allow import and export of resources from planets in your distinct territories.[/i]
+>>
+ORB_STELLAR_SHIELD: Stellar Shield Generator
+ORB_STELLAR_SHIELD_BLURB: Adds a powerful shield to all stars in the system.
+ORB_STELLAR_SHIELD_DESC: <<
+	A gargantuan shield emitter, this facility envelops entire stars in a powerful shield, providing a temporary defense against weapons such as Graviton Condensers.
+
+	Adds 1G shield capacity to every star in the system. Black holes receive 10G shield capacity. Shield regenerates at a rate of 1M per second.
+
+	Stacks with other stellar shielding technology. Will protect indiscriminately against friendly and enemy attacks alike.
+>>
+ORB_EMBASSY: Embassy
+ORB_EMBASSY_BLURB: Sends envoys to other planets to achieve diplomatic goals.
+ORB_EMBASSY_DESC: <<
+	A center of diplomatic activity, this station periodically sends out Envoys to other planets. Envoys persuade the governments of enemy planets that they would be better off under their empire's rule, and inspire the populations of allied planets into persisting long after they would normally be beaten.
+
+	Enemy planets visited by an Envoy have a 10% chance of defecting to your empire. Planets belonging to your empire, your vassals or an empire you have an Alliance with will be immune to loyalty loss for 180 seconds.
+
+	Diplomatic backlash gives you and your allies Leverage against anyone who would destroy the Embassy.
+
+	Embassies act as Commerce Stations and Outposts in that they allow trade between separated territories, and expand your empire's borders, respectively.
+>>
+ORB_EXP_PLATFORM: Exploitation Platform
+ORB_FARM_BLURB: Produces food.
+ORB_FARM_DESC: <<
+	Generates a basic food resource for the planet it orbits. Food generation only applies if the planet and Hydroponics Station are owned by the same empire.
+>>
+ORB_HYDROGENATOR_BLURB: Produces water. 
+ORB_HYDROGENATOR_DESC: <<
+	Generates a basic water resource for the planet it orbits. Water generation only applies if the planet and Water Reclamation Facility are owned by the same empire.
+>>
+ORB_SENATE_BLURB: Generates 10 Influence stake.
+ORB_POWERPLANT_BLURB: Generates 5 Energy per second.
+ORB_INTEL_BLURB: Generates Intelligence against nearby empires.
+ORB_PROGENITOR_SOLARORBITAL_BLURB: Generates energy per second relative to the temperature of the system's star. Requires no maintenance.
+ORB_PROGENITOR_SOLARORBITAL_DESC: <<
+	Generates extra energy per second. The higher the temperature of the star of the system it's in, the more energy is generated. Generates more energy than a regular Solar Engine. Requires no maintenance.
+
+	Only one Solar Engine of any kind may be constructed per system.
+>>
+ORB_PROGENITOR_SOLARORBITAL: Advanced Solar Engine

@@ -1,0 +1,61 @@
+BLD_HOUSING_DESC: <<
+	Add 2 Maximum population.
+	Replaces up to 6 cities.
+>>
+F_INTEL_NAME: Intelligence Facilities
+F_INTEL_DESC: <<
+	[color=#aaa][i]A facility for intelligence agencies to train operatives and coordinate missions from.[/i][/color]
+
+	Generates intelligence cards against empires adjacent to this system every 2 minutes. If no such empires exist, intelligence cards are against a random empire.
+>>
+F_POWERPLANT_NAME: Power Plant
+F_POWERPLANT_DESC: <<
+	[color=#aaa][i]A massive power plant dedicated to the production of large amounts of clean energy.[/i][/color]
+
+	Provides Energy generation equivalent to 10 pressure.
+>>
+F_SENATE_NAME: Government Center
+F_SENATE_DESC: <<
+	[color=#aaa][i]Places for government officials to discuss and enforce imperial policies from, the larger of these facilities are also of some diplomatic significance.[/i][/color]
+
+	Generates 10 Influence stake.
+>>
+B_SLAVE_DESC: <<
+	Massive slave camps where all the planet's resources - and its population - are dedicated to construction.
+
+	Generates 1.5 Labor per 1 billion inhabitants. Converts Energy generation to Labor generation at a 2:1 ratio. Converts Defense generation to Labor at a 1:1 ratio. Adds 50 Labor storage. Replaces 4 cities.
+
+	Reduces planet's civilian influence and research production by 90%. Reduces loyalty of all planets in the system by 3.
+>>
+B_TAXCENTER_DESC: <<
+	Facilities dedicated to ensuring that the population pays their taxes regularly, no matter the cost.
+
+	Adds 1 Money generation for every 0.5 billion inhabitants.
+
+	Decreases population growth by 20%. Decreases planet loyalty by 10.
+>>
+B_DEFENSEFACTORY_DESC: <<
+	A facility dedicated to the coordination of defensive forces across the planet.
+
+	Adds 2 Defense generation. Adds 128 support capacity.
+>>
+COND_ANCIENT_CANNON: Ancient Planetary Defenses
+COND_ANCIENT_CANNON_DESC: <<|
+	An ancient defense system of immense power is located on the surface, inactive but usable.
+>>
+BLD_ANCIENT_CANNON: Ancient Gravitational Collapser
+BLD_ANCIENT_CANNON_DESC: <<|
+	A reactivated ancient weapon of considerable firepower.
+
+	If operational, fires a projectile every 10 seconds, dealing between 500 and 37500 damage to all targets within 50 units of the explosion, depending on their size. Size 100 ships will take 2500 damage per hit, size 20 or smaller will take 500 damage per hit, size 1500 or larger will take 37500 damage per hit.
+
+	If the planet is under siege and has no defenses remaining in orbit, the weapon is deactivated.
+>>
+BLD_RECALL_DESC: <<
+	A hyperfield manipulator designed to open a wormhole between a location in orbit and any allied object in the universe.
+
+	[img=MenuIcons::3;20]Grants the Recall ability.[/img]
+	[img=ResourceIcon::2;22]Costs [b][color=#42b4bd]Energy[/color][/b] to activate.[/img]
+	[img=MenuIcons::3;20]The smaller the recalled object is, the less energy is consumed.[/img]
+	[img=MenuIcons::3;20][i][bbloc=#ABL_RECALL_DESC/][/i][/img]
+>>
