@@ -58,6 +58,24 @@ S_CONTROLCHAIR_DESC: <<
 	[img=Minus]Does not repair the ship at all.[/img]
 	[img=Minus]Ship is disabled or destroyed if no control remains.[/img]
 >>
+S_CARPETBOMB: Tapis de bombe
+S_CARPETBOMB_DESC: <<
+	Une puissante, arme à ogive multiple conçu pour dévaster la surface et la population d'une planète.
+>>
+S_ROCKETPOD: Lance roquette
+S_ROCKETPOD_DESC: <<
+		Lance une salve de roquettes de courte portée, et recule pour recharger.
+
+		[img=Plus]Haut [b][color=#ff8080]dégâts[/color][/b].[/img]
+		[img=Plus]Aucune limitation d'angle de tir.[/img]
+		[img=Plus]Très efficace pour percer l'armure.[/img]
+		[img=Minus]Doit recharger après plusieurs tirs.[/img]
+		[img=Minus]Haut [b][color=#fefc61]coût d'approvisionnement[/color][/b].[/img]
+	>>
+S_TORPEDOLAUNCHER: Lance-torpilles
+S_TORPEDOLAUNCHER_DESC: <<
+	Lance une torpille guidée. Ces torpilles explosent dans une zone autour de leur cible.
+>>
 S_RECALL: Recall Device
 S_RECALL_DESC: <<
 	A hyperfield manipulator designed to open a wormhole between a nearby location and any allied object in the universe.
