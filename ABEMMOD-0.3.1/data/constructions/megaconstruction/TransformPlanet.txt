@@ -1,0 +1,11 @@
+Construction: TransformPlanet
+	Name: #C_HABITATRING
+	Description: #C_HABITATRING_DESC
+	Labor Cost: 250
+	Icon: PlanetImage
+	Category: Upgrades
+	RequireNotTrait(StarChildren)
+	ConsumeCargo(Ore, 1000)
+	RequireNotStatus(SoilEnhanced)
+	AddSurfaceArea(Artificial, (4,8), Separate = True, Developed = True)
+	AddStatus(SoilEnhanced)

@@ -1,0 +1,10 @@
+Construction: Terraforming
+	Name: #C_TERRAFORMING
+	Description: #C_TERRAFORMING_DESC
+	Labor Cost: 25
+	Icon: PlanetImage
+	Category: Upgrades
+	ConsumeEnergy(100)
+	DevelopTiles(20)
+	RequireNotTrait(StarChildren)
+	ConsumeCargo(Ore, 150)
