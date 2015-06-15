@@ -41,9 +41,9 @@ ABL_REVENANT_ENGINE_DESC: <<
 	[b]Vous contrôlerez le plus puissant vaisseau de guerre de l'univers en ayant activé les quatre modifications du The Revenant en même temps.[/b]
 >>
 ABL_INFILTRATE_DESC: <<
-	Uses a high amount of energy to teleport a well-trained saboteur onto a flagship or orbital, or into a planetary defense center to disrupt its operations and transmit its sensor data back to the empire. Can be used in tandem with the "Infiltrate" influence card.
+	Utilise une grande quantité d'énergie pour téléporter un saboteur soit sur un vaisseau amiral ou orbitale, soit dans un centre de défense planétaire pour perturber ses opérations et transmettre les données de ses capteurs à notre empire. Peut être utilisé avec la carte d'influence "Infiltrer".
 
-	Training the saboteur and preparing his personal cloaking device costs §200k.
+	Coût de l'opération : 200k.
 >>
 ABL_GDF: Go Down Fighting
 ABL_GDF_DESC: <<
