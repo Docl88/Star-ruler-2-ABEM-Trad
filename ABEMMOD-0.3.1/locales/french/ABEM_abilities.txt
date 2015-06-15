@@ -1,5 +1,5 @@
 ABL_OVERCHARGE_FLEET_DESC: <<
-	Améliore l'efficacité de la flotte selectionnée de 40%.
+	Améliore l'efficacité de la flotte selectionnée de 40%. BBb
 
 	Une flotte ne peut étre améliorée qu'une fois.
 >>
