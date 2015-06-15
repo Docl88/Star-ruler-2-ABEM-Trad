@@ -223,6 +223,8 @@ ABL_PROTO_LEVEL1: Former planète (Niveau  1)
 ABL_PROTO_LEVEL1_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 1 de ressources aléatoire.
 ABL_PROTO_LEVEL2: Former planète (Niveau  2)
 ABL_PROTO_LEVEL2_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 2 de ressources aléatoire.
+ABL_PROTO_LEVEL3: Former planète (Niveau  3)
+ABL_PROTO_LEVEL3_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 3 de ressources aléatoire.
 
 ART_FRAME_CONSTRUCTOR: Constructeur de Cadre Orbital
 ART_FRAME_CONSTRUCTOR_DESC: <<
