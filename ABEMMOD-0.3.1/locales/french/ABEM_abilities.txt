@@ -51,6 +51,8 @@ ABL_GDF_DESC: <<
 
 	Effectiveness boost starts at 10%, increasing by 5% every 5 seconds until the ship explodes 60 seconds after activation. Explosion deals damage equivalent to the square root of 5*Power to all targets within a radius of the square root of 2*Power units. Cannot be used on a fleet that is under the effects of - or recovering from - Rally Cry.
 >>
+ABL_GDF_DESC2: Ship detroyed in 120s for example increased dmg*.Gives free tractor only usable on fleets >%HP
+ABL_FREEFTL_DESC: FreeFTL on this ship
 ABL_LW: Rally Cry
 ABL_LW_DESC: <<
 	Orders a fleet to redouble its efforts to defeat an enemy. The additional effort is a significant strain on the fleet's personnel and equipment, however, and they will need to recuperate before they can fight again.
@@ -105,7 +107,12 @@ ABL_BOARDING_PARTY_DESC: <<
 	
 	Only one boarding action can be running on an object at any given time, and Verdant-owned objects cannot be boarded. Boarding actions cannot be initiated by ships which are already being boarded. Asteroids and orbitals always have 100 boarding strength.
 >>
+ABL_RECALL: Recall
 ABL_RECALL_DESC: Opens a wormhole engulfing the target allied object and immediately depositing it in close proximity to the recalling object.
+ABL_POWERTOW: Power To weapons
+ABL_POWERTOW_DESC: Reduce rest values to give power to Weapons
+ABL_POWERTOS_DESC: Reduce rest values to give power to Engines
+ABL_POWERTOE_DESC: Reduce rest values to give power to Engines
 ABL_PROGENITOR_COMMANDCODES: Override Remnant Programming
 ABL_PROGENITOR_COMMANDCODES_DESC: <<
 	Using our command codes, we can access the control computers of Keeper fleets, overriding the ancient directives programmed by our ancestors so that they do our bidding.
@@ -142,6 +149,7 @@ ABL_SHIELDTRANSFER_DESC: <<
 	
 	Transfers shield HP to the target flagship.
 >>
+ABL_DEPLOY_EXPLOITATION_PLATFORMS: Deploy Exploitation Platforms
 ABL_DEPLOY_EXPLOITATION_PLATFORMS_DESC: <<
 	Construct a number of orbital exploitation platforms to strip-mine a planet.
 

@@ -1,0 +1,14 @@
+Ability: PowerToW
+	Name: #ABL_POWERTOW
+	Description: #ABL_POWERTOW_DESC
+Ability: PowerToS
+	Description: #ABL_POWERTOS_DESC
+Ability: PowerToE
+	Description: #ABL_POWERTOE_DESC
+Ability: #ABL_GDF
+	Description: #ABL_GDF_DESC2
+	AddPermanentEffectiveness(0.4)
+Ability: RestoreLoyalty
+Ability: ReducesMaintenance
+Ability: FreeFTL
+	Description: #ABL_FREEFTL_DESC
