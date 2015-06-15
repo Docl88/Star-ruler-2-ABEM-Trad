@@ -1,0 +1,63 @@
+Building: Lvl1Research
+	Name: #B_LVL1RESEARCH
+	Description: #B_LVL1RESEARCH_DESC
+
+	Sprite: lvl1r
+
+	Category: Tier I Resources 
+
+	Size: 4x4
+	Base Cost: 1000
+
+
+	Labor Cost: 250
+
+	ConsumeCargo(Ore, 2000)
+
+	RequireEither(RequireStatus(Ringworld), RequireEither(RequireStatus(RRInitialRingworld), RequireStatus(ReclusiveRingworlder)))
+	AddPressure(Research, 3)
+	AddDummyResource(Titanium, 1)
+
+Building: Lvl1Budget
+	Name: #B_LVL1BUDGET
+	Description: #B_LVL1BUDGET_DESC
+
+	Sprite: lvl1b
+
+	Category: Tier I Resources 
+
+	Size: 4x4
+	Base Cost: 1000
+
+	
+	Labor Cost: 250
+	
+
+	ConsumeCargo(Ore, 2000)
+
+	RequireEither(RequireStatus(Ringworld), RequireEither(RequireStatus(RRInitialRingworld), RequireStatus(ReclusiveRingworlder)))
+	AddPressure(Money, 3)
+	AddDummyResource(Titanium, 1)
+
+
+
+Building: Lvl1Defense
+	Name: #B_LVL1DEFENSE
+	Description: #B_LVL1DEFENSE_DESC
+
+	Sprite: lvl1d
+
+	Category: Tier I Resources 
+
+	Size: 4x4
+	Base Cost: 1000
+
+	
+	Labor Cost: 250
+	
+
+	ConsumeCargo(Ore, 2000)
+
+	RequireEither(RequireStatus(Ringworld), RequireEither(RequireStatus(RRInitialRingworld), RequireStatus(ReclusiveRingworlder)))
+	AddPressure(Defense, 3)
+	AddDummyResource(Titanium, 1)

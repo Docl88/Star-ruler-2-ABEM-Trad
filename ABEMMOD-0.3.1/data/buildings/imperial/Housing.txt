@@ -1,0 +1,17 @@
+Building: Residential
+	Name: #BLD_HOUSING
+	Description: #BLD_HOUSING_DESC
+	Sprite: city3
+	Size: 2x2
+	Base Cost: 300
+	Tile Cost: 50
+	Base Maintenance: 30
+	Tile Maintenance: 25
+	Build Time: 120
+	Category: Infrastructure
+	RequireUnlockTag(Housing1)
+	RequireNotStatus(Ringworld)
+	ReplacesCities(Amount = 6)
+	AddMaxPopulation(2)
+
+	ConstructibleIfAttribute(ForbidCityConstruction, 0)

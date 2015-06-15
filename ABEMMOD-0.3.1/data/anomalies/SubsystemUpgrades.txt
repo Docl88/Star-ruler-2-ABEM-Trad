@@ -1,0 +1,31 @@
+Anomaly: SubsystemsUpgrade
+	Name: #A_SUBSYSTEMSUPGRADE
+	Description: #A_SUBSYSTEMSUPGRADE_DESC
+	Frequency: 0
+	Model: Depot
+	Material: VolkurGenericPBR
+	Option: Weapons
+		Icon: FusionTorpedo
+		Description: #A_EQUIPMENTSTASH_WEAPONS
+		AddModifier(tag/Weapon::DamageFactor(1.10))
+	Option: Supply
+		Icon: SupplyStorage
+		Description: #A_EQUIPMENTSTASH_SUPPLY
+		AddModifier(SupplyCapacityFactor(1.2))
+	Option: Engines
+		Icon: techRocket
+		Description: #A_EQUIPMENTSTASH_ENGINES
+		AddModifier(ThrustFactor(1.1))
+	Option: Armor
+		Description: #A_EQUIPMENTSTASH_ARMOR
+		Icon: PlateArmor
+		AddModifier(tag/IsArmor::HpFactor(1.15))
+	State: SubsystemUpg
+		Narrative: #A_EQUIPMENTSTASH_NARRATIVE
+		
+		Model: Depot
+		Material: VolkurGenericPBR
+		Choice: Armor
+		Choice: Engines
+		Choice: Supply
+		Choice: Weapons

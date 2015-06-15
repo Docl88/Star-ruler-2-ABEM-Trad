@@ -1,0 +1,18 @@
+Building: TaxCenter
+	Name: #B_TAXCENTER
+	Description: #B_TAXCENTER_DESC
+	Size: 3x3
+	Base Cost: 400
+	Tile Cost: 100
+	Tile Maintenance: 100
+	Build Time:
+	Sprite: tax2
+	Category: Infrastructure
+	Labor Cost: 100
+	Base Maintenance: 100
+	GloballyVisible()
+	RequireUnlockTag(Tax)
+	ModPopulationGrowth(0.8)
+	ModLoyalty(-10)
+	PerPopulationAddResource(0.5, Money)
+	ConflictBuilding(TaxCenter)

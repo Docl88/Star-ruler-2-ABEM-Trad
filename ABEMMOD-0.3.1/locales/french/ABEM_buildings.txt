@@ -1,3 +1,4 @@
+BLD_HOUSING: Residential Area
 BLD_HOUSING_DESC: <<
 	Add 2 Maximum population.
 	Replaces up to 6 cities.
@@ -20,6 +21,7 @@ F_SENATE_DESC: <<
 
 	Generates 10 Influence stake.
 >>
+B_SLAVE: Slave Barracks
 B_SLAVE_DESC: <<
 	Massive slave camps where all the planet's resources - and its population - are dedicated to construction.
 
@@ -27,6 +29,7 @@ B_SLAVE_DESC: <<
 
 	Reduces planet's civilian influence and research production by 90%. Reduces loyalty of all planets in the system by 3.
 >>
+B_TAXCENTER: Taxation Center
 B_TAXCENTER_DESC: <<
 	Facilities dedicated to ensuring that the population pays their taxes regularly, no matter the cost.
 
@@ -34,6 +37,7 @@ B_TAXCENTER_DESC: <<
 
 	Decreases population growth by 20%. Decreases planet loyalty by 10.
 >>
+B_DEFENSEFACTORY: Command Center
 B_DEFENSEFACTORY_DESC: <<
 	A facility dedicated to the coordination of defensive forces across the planet.
 
@@ -51,6 +55,7 @@ BLD_ANCIENT_CANNON_DESC: <<|
 
 	If the planet is under siege and has no defenses remaining in orbit, the weapon is deactivated.
 >>
+BLD_RECALL: Recall Facility
 BLD_RECALL_DESC: <<
 	A hyperfield manipulator designed to open a wormhole between a location in orbit and any allied object in the universe.
 
@@ -59,3 +64,40 @@ BLD_RECALL_DESC: <<
 	[img=MenuIcons::3;20]The smaller the recalled object is, the less energy is consumed.[/img]
 	[img=MenuIcons::3;20][i][bbloc=#ABL_RECALL_DESC/][/i][/img]
 >>
+B_CLOACKFACILITY: Cloack Facility
+B_LVL1RESEARCH: Research Complex
+B_LVL1RESEARCH_DESC: <<
+		A specialized processing plant that can replace a Level 1 Research and prodruce 3 Pressure  .
+
+		[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Requires large amounts of Ore mined from asteroids.[/color][/b][/img]
+	>>
+B_LVL1BUDGET: Space Market
+B_LVL1BUDGET_DESC: <<
+		A specialized processing plant that can replace a Level 1 Budget and produce 3 Pressure  .
+
+		[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Requires large amounts of Ore mined from asteroids.[/color][/b][/img]
+	>>
+B_LVL1DEFENSE: Weapons Factory
+B_LVL1DEFENSE_DESC: <<
+		A specialized processing plant that can replace a Level 1 Defense and prodruce 3 Pressure  .
+
+		[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Requires large amounts of Ore mined from asteroids.[/color][/b][/img]
+	>>
+B_LVL2RESEARCH: Research Complex
+B_LVL2RESEARCH_DESC: <<
+		A specialized processing plant that can replace a Level 2 Research and prodruce 7 Pressure  .
+
+		[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Requires large amounts of Ore mined from asteroids.[/color][/b][/img]
+	>>
+B_LVL2BUDGET: Space Market
+B_LVL2BUDGET_DESC: <<
+		A specialized processing plant that can replace a Level 2 Budget and produce 7 Pressure  .
+
+		[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Requires large amounts of Ore mined from asteroids.[/color][/b][/img]
+	>>
+B_LVL2DEFENSE: Weapons Factory
+B_LVL2DEFENSE_DESC: <<
+		A specialized processing plant that can replace a Level 2 Defense and prodruce 7 Pressure  .
+
+		[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Requires large amounts of Ore mined from asteroids.[/color][/b][/img]
+	>>

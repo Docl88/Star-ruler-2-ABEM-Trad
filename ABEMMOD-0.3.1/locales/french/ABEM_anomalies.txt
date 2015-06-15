@@ -48,3 +48,10 @@ A_EQUIPMENTSTASH_SUPPLY: <<
 A_EQUIPMENTSTASH_ARMOR: <<
 	This container is filled with advanced alloys and composites used in armor fabrication. Analyzing them will yield a 15% boost to all armor health.
 >>
+A_BLACKHOLE: Crippled Remnant Guardian
+A_REMNANTSHIELDS_DESC: Download the schematics for the flagship's advanced shields.
+A_REMNANTARMOR_DESC: Download the data on the flagship's advanced armor.
+A_REMNANTCOMPUTERS_DESC: Download the schematics for the flagship's radiation-resistant computer core.
+A_DRONEWEAPONS_DESC: Download the data on the flagship's powerful drone weapons.
+A_SUBSYSTEMSUPGRADE: Equipment Stash
+A_SUBSYSTEMSUPGRADE_DESC: If you see this, there is something terribly wrong with this anomaly. Contact one of ABEM's developers and tell them how you caused this text to appear.
