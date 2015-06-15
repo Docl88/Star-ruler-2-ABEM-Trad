@@ -45,16 +45,19 @@ ABL_INFILTRATE_DESC: <<
 
 	Training the saboteur and preparing his personal cloaking device costs §200k.
 >>
+ABL_GDF: Go Down Fighting
 ABL_GDF_DESC: <<
 	Orders a flagship to overcharge its primary reactors. Boosts the damage output of the fleet, but the flagship is destroyed in a catastrophic overload.
 
 	Effectiveness boost starts at 10%, increasing by 5% every 5 seconds until the ship explodes 60 seconds after activation. Explosion deals damage equivalent to the square root of 5*Power to all targets within a radius of the square root of 2*Power units. Cannot be used on a fleet that is under the effects of - or recovering from - Rally Cry.
 >>
+ABL_LW: Rally Cry
 ABL_LW_DESC: <<
 	Orders a fleet to redouble its efforts to defeat an enemy. The additional effort is a significant strain on the fleet's personnel and equipment, however, and they will need to recuperate before they can fight again.
 
 	Boosts effectiveness by 2.5% every 5 seconds for 60 seconds, then halves effectiveness for 240 seconds. Rally Cry cannot be used on a fleet that is still recovering from a previous Rally Cry, or under the effects of Go Down Fighting.
 >>
+ABL_MEL: Mask Energy Levels
 ABL_MEL_DESC: <<
 	Uses special technology on the Admiral's flagship to mask the energy levels of a fleet, making them appear less powerful to an enemy's sensors. The deception must be maintained, though; every 5 minutes, the effect must be applied again.
 
@@ -65,29 +68,35 @@ ABL_COUNTERINTEL_DESC: <<
 
 	The operation costs §250k to perform.
 >>
+ABL_TURRET_LASER: Install Laser Turret
 ABL_TURRET_LASER_DESC: <<
 	Installs a laser turret onto a target flagship or orbital. The bulk of the turret's power generator prohibits the use of additional laser turrets on the object.
 
 	Shares a cooldown with other turret construction.
 >>
+ABL_TURRET_RAIL: Install Railgun Turret
 ABL_TURRET_RAIL_DESC: <<
 	Installs a pair of railgun turrets onto a target flagship or orbital. The bulk of the turrets' ammo fabricators, reloading mechanisms and induction coils prohibits the use of additional railgun turrets on the object.
 
 	Shares a cooldown with other turret construction.
 >>
+ABL_TURRET_MISSILE: Install Missile Turret
 ABL_TURRET_MISSILE_DESC: <<
 	Installs a dual missile turret onto a target flagship or orbital. The bulk of the turret's ammo fabricator prohibits the use of additional missile turrets on the object.
 
 	Shares a cooldown with other turret construction.
 >>
+ABL_BUILD_OUTPOST: Construct Outpost
 ABL_BUILD_OUTPOST_DESC: <<
 	Uses a moderate amount of energy to immediately fabricate an outpost at a target location.
 
 	Preparing the components required for the project costs §300k. Evangelical races construct a Star Temple instead.
 >>
+ABL_SCUTTLEDERELICT: Scuttle Derelict Ship
 ABL_SCUTTLEDERELICT_DESC: <<
 	Sends a demolition crew to plant charges on the target derelict. The remains of the target ship are destroyed.
 >>
+ABL_SENSORJAMMER: Sensor Jammer
 ABL_BOARDING_PARTY: Send Boarding Party
 ABL_BOARDING_PARTY_DESC: <<
 	Transports a boarding party to the target object, initiating a boarding action.

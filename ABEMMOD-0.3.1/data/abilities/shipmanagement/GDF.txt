@@ -1,0 +1,12 @@
+Ability: GDF
+	Target: OwnShip = Object
+	Name: #ABL_GDF
+	Description: #ABL_GDF_DESC
+	Icon: GDF*#ff1010
+	Range: 100
+	TargetFilterNotStatus(OwnShip, GDF)
+	TargetFilterNotStatus(OwnShip, LW)
+	TargetFilterNotStatus(OwnShip, Exhausted)
+	TargetFilterOwned(OwnShip)
+	TargetFilterFlagship(OwnShip)
+	AddStatusTo(OwnShip, GDF, Duration = 60)

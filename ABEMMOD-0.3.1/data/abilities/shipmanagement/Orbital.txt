@@ -1,0 +1,77 @@
+Ability: BuyTurretL
+	Name: #ABL_TURRET_LASER
+	Description: #ABL_TURRET_LASER_DESC
+	Target: Orbital = Object
+	Icon: LaserTurret
+	Cooldown: 120
+	Range: 200
+
+	AddStatusTo(Orbital, LaserTurret)
+	TargetFilterNotStatus(Orbital, LaserTurret)
+	ABEM_hooks::TargetFilterNotType(Orbital, Planet)
+	Either(TargetFilterFlagship(Orbital), TargetFilterType(Orbital, Orbital))
+
+
+	ShowMoneyValue(300)
+	TargetFilterAllied(Orbital)
+	ConsumeMoney(300)
+	ShareCooldown(BuyTurretL)
+	ShareCooldown(BuyTurretR)
+	ShareCooldown(BuyTurretM)
+	
+Ability: BuyTurretR
+	Name: #ABL_TURRET_RAIL
+	Description: #ABL_TURRET_RAIL_DESC
+	Icon: RailTurret
+	Target: Orbital = Object
+
+	Cooldown: 120
+	Range: 200
+
+	AddStatusTo(Orbital, RailgunTurret)
+	TargetFilterNotStatus(Orbital, RailgunTurret)
+	ABEM_hooks::TargetFilterNotType(Orbital, Planet)
+	Either(TargetFilterFlagship(Orbital), TargetFilterType(Orbital, Orbital))
+
+
+
+	ShareCooldown(BuyTurretL)
+	ShareCooldown(BuyTurretR)
+	ShareCooldown(BuyTurretM)
+	ShowMoneyValue(300)
+	ConsumeMoney(300)
+
+	TargetFilterAllied(Orbital)
+	
+Ability: BuyTurretM
+	Name: #ABL_TURRET_MISSILE
+	Description: #ABL_TURRET_MISSILE_DESC
+	Target: Orbital = Object
+	Icon: MissileTurret
+	Cooldown: 120
+	Range: 200
+
+	AddStatusTo(Orbital, MissileTurret)
+	TargetFilterNotStatus(Orbital, MissileTurret)
+	ABEM_hooks::TargetFilterNotType(Orbital, Planet)
+	Either(TargetFilterFlagship(Orbital), TargetFilterType(Orbital, Orbital))
+
+	TargetFilterAllied(Orbital)
+	ShareCooldown(BuyTurretL)
+	ShareCooldown(BuyTurretR)
+	ShareCooldown(BuyTurretM)
+	ShowMoneyValue(500)
+	ConsumeMoney(500)
+
+Ability: SpawnOrbital
+	Target: Place = Point
+	Cooldown: 120
+	Energy Cost: 250
+	Name: #ABL_BUILD_OUTPOST
+	Description: #ABL_BUILD_OUTPOST_DESC
+	Range: 100
+	Icon: OrbitalIcons::0
+
+	ShowMoneyValue(300)
+	ConsumeMoney(300)
+	SpawnOrbitalAt(Place, TradeOutpost)
