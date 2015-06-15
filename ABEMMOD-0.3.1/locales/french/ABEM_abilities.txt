@@ -3,7 +3,7 @@ ABL_OVERCHARGE_FLEET_DESC: <<
 
 	Une flotte ne peut étre améliorée qu'une fois.
 >>
-ABL_OVERCHARGE_FLEET: Perform Ancient Retrofit
+ABL_OVERCHARGE_FLEET: Rénover le vaisseau
 ABL_REVENANT_CANNON_DESC: <<
 	Active le canon du The Revenant, un sombre vaisseau de la légende.
 
@@ -47,9 +47,9 @@ ABL_INFILTRATE_DESC: <<
 >>
 ABL_GDF: Go Down Fighting
 ABL_GDF_DESC: <<
-	Orders a flagship to overcharge its primary reactors. Boosts the damage output of the fleet, but the flagship is destroyed in a catastrophic overload.
+	Ordonner à un vaisseau amiral de surcharger ses réacteurs primaires. Augmente les dégâts infligés par flotte, le vaisseau amiral est détruit dans une surcharge catastrophique.
 
-	Effectiveness boost starts at 10%, increasing by 5% every 5 seconds until the ship explodes 60 seconds after activation. Explosion deals damage equivalent to the square root of 5*Power to all targets within a radius of the square root of 2*Power units. Cannot be used on a fleet that is under the effects of - or recovering from - Rally Cry.
+	L'éfficacité du boost commence à 10%, augemente de 5% tous les 5 secondes jusqu'à ce que le navire explose, 60 secondes après l'activation. L'explosion inflige des dégâts équivalents à la racine carrée de 5 multiplié par la puissance de toutes les cibles dans un rayon de la racine carrée de 2 fois unité de puissance. Ne peut pas être utilisé sur une flotte qui est sous les effets de - ou s'en remettant -  RALLY CRY.
 >>
 ABL_GDF_DESC2: Ship detroyed in 120s for example increased dmg*.Gives free tractor only usable on fleets >%HP
 ABL_FREEFTL_DESC: FreeFTL on this ship
