@@ -1,44 +1,44 @@
 ABL_OVERCHARGE_FLEET_DESC: <<
-	Increase the targeted fleet's effectiveness by 40%.
+	Améliore l'efficacité de la flotte selectionnée de 40%.
 
-	A fleet can only be upgraded once.
+	Une flotte ne peut étre améliorée qu'une fois.
 >>
 ABL_OVERCHARGE_FLEET: Perform Ancient Retrofit
 ABL_REVENANT_CANNON_DESC: <<
-	Activate the cannon of The Revenant, a dark ship of legend.
+	Active le canon du The Revenant, un sombre vaisseau de la légende.
 
-	While active, the cannon provides all your designs with [b]50% increased weapon range/speed[/b].
+	Losrqu'il est activé, le canon augemente de [b]50% la portée et la rapidité des armes de tous vos modèles[/b].
+	
+	Le canon il se désactive automatiquement quand il perd tous ses PV.
 
-	When the activated cannon loses all its HP, it reverts back to its deactivated state.
-
-	[b]Having all 4 parts of The Revenant activated at the same time will grant you control over the most powerful warship in the universe.[/b]
+	[b]Vous contrôlerez le plus puissant vaisseau de guerre de l'univers en ayant activé les quatre modifications du The Revenant en même temps.[/b]
 >>
 ABL_REVENANT_CHASSIS_DESC: <<
-	Activate the chassis of The Revenant, a dark ship of legend.
+	Active le châssis du The Revenant, un sombre vaisseau de la légende.
 
-	While active, the chassis provides all your designs with [b]30% reduced build costs[/b].
+	Losrqu'il est activé, le châssis diminue de [b]30% le coût de construction de tous vos modèles[/b].
 
-	When the activated chassis loses all its HP, it reverts back to its deactivated state.
+	Le châssis il se désactive automatiquement quand il perd tous ses PV.
 
-	[b]Having all 4 parts of The Revenant activated at the same time will grant you control over the most powerful warship in the universe.[/b]
+	[b]Vous contrôlerez le plus puissant vaisseau de guerre de l'univers en ayant activé les quatre modifications du The Revenant en même temps.[/b]
 >>
 ABL_REVENANT_CORE_DESC: <<
-	Activate the core of The Revenant, a dark ship of legend.
+	Active le CORE du The Revenant, un sombre vaisseau de la légende.
 
-	While active, the core provides all your designs with [b]40% increased support capacity[/b].
+	Losrqu'il est activé, le CORE augement de [b]40% la capacité de support de tous vos modèles[/b].
 
-	When the activated core loses all its HP, it reverts back to its deactivated state.
+	Le CORE il se désactive automatiquement quand il perd tous ses PV.
 
-	[b]Having all 4 parts of The Revenant activated at the same time will grant you control over the most powerful warship in the universe.[/b]
+	[b]Vous contrôlerez le plus puissant vaisseau de guerre de l'univers en ayant activé les quatre modifications du The Revenant en même temps.[/b]
 >>
 ABL_REVENANT_ENGINE_DESC: <<
-	Activate the engine of The Revenant, a dark ship of legend.
+	Active le moteur du The Revenant, un sombre vaisseau de la légende.
 
-	While active, the engine provides all your designs with [b]50% more thrust/acceleration[/b] and designs with hyperdrives with a [b]30% increase to hyperdrive speed[/b].
+	Losrqu'il est activé, le moteur augement de [b]50% la poussée/acceleration de tous vos modèles équipées d'hyper-propuleurs tout en augementant la vitesse de l'hyper-propulsion de 30%[/b].
 
-	When the activated engine loses all its HP, it reverts back to its deactivated state.
+	Le moteur il se désactive automatiquement quand il perd tous ses PV.
 
-	[b]Having all 4 parts of The Revenant activated at the same time will grant you control over the most powerful warship in the universe.[/b]
+	[b]Vous contrôlerez le plus puissant vaisseau de guerre de l'univers en ayant activé les quatre modifications du The Revenant en même temps.[/b]
 >>
 ABL_INFILTRATE_DESC: <<
 	Uses a high amount of energy to teleport a well-trained saboteur onto a flagship or orbital, or into a planetary defense center to disrupt its operations and transmit its sensor data back to the empire. Can be used in tandem with the "Infiltrate" influence card.
