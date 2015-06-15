@@ -1,1 +1,7 @@
 VERB_PICKUP_GUARDIAN: Move in closer to the $1
+BLACKHOLECAMP: Crippled Remnant Guardian
+BLACKHOLECAMP_DESC: Allows you to attempt to salvage the Guardian.
+C_SUBSYSTEMSUPGRADE: Equipment Stash
+C_SUBSYSTEMSUPGRADE_DESC: A Remnant equipment stash you can improve your technology with.
+C_SOLARORBITAL: Advanced Solar Engine
+C_SOLARORBITAL_DESC: A dormant Solar Engine of Progenitor design. Will generate energy when reactivated, and does not require maintenance. Produces more energy than a regular Solar Engine.
