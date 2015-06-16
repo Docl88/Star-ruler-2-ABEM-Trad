@@ -41,17 +41,23 @@ ORB_EMBASSY_DESC: <<
 	Embassies act as Commerce Stations and Outposts in that they allow trade between separated territories, and expand your empire's borders, respectively.
 >>
 ORB_EXP_PLATFORM: Exploitation Platform
-ORB_FARM_BLURB: Produces food.
-ORB_FARM_DESC: <<
+ORB_EXP_PLATFORM_DESC: A tester en jeu puis créer description dans abem_orbitals.txt
+ORB_NYLLIFOOD: Hydroponics Station
+ORB_NYLLIFOOD_DESC: <<
 	Generates a basic food resource for the planet it orbits. Food generation only applies if the planet and Hydroponics Station are owned by the same empire.
 >>
-ORB_HYDROGENATOR_BLURB: Produces water. 
-ORB_HYDROGENATOR_DESC: <<
+ORB_NYLLIFOOD_BLURB: Produces food.
+ORB_NYLLIWATER: Water Reclamation Facility
+ORB_NYLLIWATER_DESC: <<
 	Generates a basic water resource for the planet it orbits. Water generation only applies if the planet and Water Reclamation Facility are owned by the same empire.
 >>
-ORB_SENATE_BLURB: Generates 10 Influence stake.
-ORB_POWERPLANT_BLURB: Generates 5 Energy per second.
-ORB_INTEL_BLURB: Generates Intelligence against nearby empires.
+ORB_NYLLIWATER_BLURB: Produces water. 
+ORB_NYLLISENATE: Government Center
+ORB_NYLLISENATE_BLURB: Generates 10 Influence stake.
+ORB_NYLLIPOWERPLANT: Power Plant
+ORB_NYLLIPOWERPLANT_BLURB: Generates 5 Energy per second.
+ORB_NYLLIINTEL: Intelligence Facility
+ORB_NYLLIINTEL_BLURB: Generates Intelligence against nearby empires.
 ORB_PROGENITOR_SOLARORBITAL_BLURB: Generates energy per second relative to the temperature of the system's star. Requires no maintenance.
 ORB_PROGENITOR_SOLARORBITAL_DESC: <<
 	Generates extra energy per second. The higher the temperature of the star of the system it's in, the more energy is generated. Generates more energy than a regular Solar Engine. Requires no maintenance.

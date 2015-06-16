@@ -44,7 +44,13 @@ S_SHIELDHEALING: Regeneration Rate
 S_SUPPLYTRANSFER: Transfer Rate
 S_SHIELDTRANSFER: Transfer Rate
 S_DEFENSIVEMATRIX: Matrix Capacity
-
+S_PROJRESIST: Projectile Resistance
+S_COMPPROJRESIST: Projectile Resistance
+S_COMPENERGYRESIST: Energy Resistance
+S_COMPEXPLRESIST: Explosive Resistance
+S_CRYSTALENERGYRESIST: Energy Resistance
+S_CRYSTALEXPLRESIST: Explosive Resistance
+S_PODSIZE: Pod Size
 // *********************************************************
 // ******************SUBSYSTEMS HERE!***********************
 // *********************************************************
