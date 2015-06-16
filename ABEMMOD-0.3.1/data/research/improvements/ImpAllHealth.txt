@@ -1,0 +1,45 @@
+Technology: ImpAllHealth
+	Name: #R_IMP_ALL_HEALTH
+	Blurb: #R_IMP_ALL_HEALTH_BLURB:10%
+	Description: #R_IMP_ALL_HEALTH_DESC:10%
+
+	Icon: techMaterialScience1*#80ff80
+	Color: #80ff80
+
+	Point Cost: 700
+	Time Cost: 180
+
+	AddModifier(HpFactor(1.1))
+	AddModifier(ImpactLevelFactor(1.1))
+	ModAttribute(OrbitalHealthMod, Multiply, 1.1)
+
+	AddModifier(RepairFactor(1.1))
+Technology: ImpAllHealth2
+	Name: #R_IMP_ALL_HEALTH2
+	Blurb: #R_IMP_ALL_HEALTH_BLURB:20%
+	Description: #R_IMP_ALL_HEALTH_DESC:20%
+
+	Icon: techMaterialScience2*#80ff80
+	Color: #80ff80
+
+	Point Cost: 1000
+	Time Cost: 180
+
+	AddModifier(RepairFactor(1.2))
+	AddModifier(HpFactor(1.2))
+	AddModifier(ImpactLevelFactor(1.2))
+	ModAttribute(OrbitalHealthMod, Multiply, 1.2)
+Technology: Further Development
+	Name: #R_INF_HULL
+	Description: #R_INF_HULL_DESC
+	Blurb: #R_INF_HULL_BLURB
+	Class: Keystone
+	Icon: AttributeIcons::6
+	Point Cost: 1500
+	Time Cost: 200
+	AddModifier(RepairFactor(1.1))
+	ModAttribute(OrbitalHealthMod, Multiply, 1.1)
+	ResetWhenUnlocked()
+	AddModifier(tag/IsArmor::HpFactor(1.10))
+	AddModifier(ArmorResistFactor(1.10))
+	AddModifier(ImpactLevelFactor(1.1))

@@ -1,0 +1,52 @@
+Technology: ImpPopLvl1
+	Name: #R_IMP_POP_LVL1PLANET
+	Icon: ResourceIcons::38
+	Blurb: #R_IMP_POP_LVL1PLANET_BLURB
+	Description: #R_IMP_POP_LVL1PLANET_DESC
+	Point Cost: 500
+	Time Cost: 60
+Technology: ImpPopLvl2
+	Name: #R_IMP_POP_LVL2PLANET
+	Blurb: #R_IMP_POP_LVL2PLANET_BLURB
+	Point Cost: 1000
+	Time Cost: 120
+	Icon: DesignationIcons::10
+	Description: #R_IMP_POP_LVL2PLANET_DESC
+	SecondaryMoneyCost(1500)
+	ModAttribute(PopulationLevel3Mod, Add, 0.5)
+	ModAttribute(PopulationLevel2Mod, Add, 0.5)
+Technology: ImpPopLvl3
+	Description: #R_IMP_POP_PERCENT_LVL2PLANET_DESC
+	Blurb: #R_IMP_POP_PERCENT_LVL2PLANET_BLURB
+	Name: #R_IMP_POP_PERCENT_LVL2PLANET
+	Icon: DesignationIcons::10*#a5ff0b
+	Point Cost: 2000
+	Time Cost: 240
+	ResetWhenUnlocked()
+	SecondaryMoneyCost(6000)
+	ModAttribute(PopulationLevel3Mod, Add, 1)
+	ModAttribute(PopulationLevel2Mod, Add, 1)
+Technology: TileDev
+	Name: #R_IMP_TILEDEV
+	Description: #R_IMP_TILEDEV_DESC
+	Point Cost: 500
+	Time Cost: 60
+	Icon: DesignationIcons::10
+	ModAttribute(TileDevelopmentFactor, AddBase, 0.3)
+Technology: MechPop
+	Name: #R_MECHPOP
+	Description: #R_MECHPOP_DESC
+	Icon: ResourceIconsSmall::3
+	Point Cost: 1000
+	Time Cost: 300
+	SecondaryEnergyCost(1500)
+	ModAttribute(MechPopulationBuilt, Add, -5)
+Technology: InfMechPop
+	Name: #R_INF_MECHPOP
+	Description: #R_INF_MECHPOP_DESC
+	Icon: ResourceIconsSmall::3
+	Point Cost: 2000
+	Time Cost: 300
+	ResetWhenUnlocked()
+	SecondaryMoneyCost(6000)
+	ModAttribute(MechPopulationBuilt, Add, -10)

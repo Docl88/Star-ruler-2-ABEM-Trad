@@ -1,0 +1,8 @@
+Technology: OrbitalEnhancement
+	Name: #R_IMP_ORBITAL
+	Description: #R_IMP_ORBITAL_DESC
+	Icon: orbital
+	Point Cost: 500
+	Time Cost: 60
+	AddModifier(hull/Station::DamageFactor(1.2))
+	ModAttribute(OrbitalHealthMod, Multiply, 1.30)
