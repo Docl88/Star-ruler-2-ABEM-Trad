@@ -686,3 +686,6 @@ R_NANO_DESC: <<
 	[color=#aaa][i]After many years of research, we have found harness the nanotechnology.
 	Unlock the nanotechnology tree to unknown technology.
 >>
+R_PLANETDEFENSE1: Defense Organization
+R_PLANETDEFENSE1_BLURP: +10% Strength to Planets
+R_GOVERMENTCHOICES: Goverment choices

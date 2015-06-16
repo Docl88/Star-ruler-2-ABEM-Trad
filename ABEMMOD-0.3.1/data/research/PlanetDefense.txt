@@ -1,0 +1,7 @@
+Technology: PlanetDefense1
+	Name: #R_PLANETDEFENSE1
+	Blurb: #R_PLANETDEFENSE1_BLURP
+	Icon: Fortified
+	Color: #94ff3d
+	Point Cost: 200
+	Time Cost: 60
