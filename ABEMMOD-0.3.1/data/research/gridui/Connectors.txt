@@ -1,0 +1,15 @@
+Technology: c1
+	Name: #R_C
+	Icon: c1
+	Color: #a3ff04
+	AutomaticallyUnlocks()
+Technology: c2
+	Name: #R_C
+	Icon: c2
+	Color: #a3ff04
+	AutomaticallyUnlocks()
+Technology: c3
+	Name: #R_C
+	Icon: c3
+	Color: #a3ff04
+	AutomaticallyUnlocks()

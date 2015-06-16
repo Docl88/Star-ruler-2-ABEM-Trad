@@ -1,0 +1,15 @@
+Technology: DevCultivation
+	Name: #R_DEV_CULTIVATION
+	Description: #R_DEV_CULTIVATION_DESC
+	Blurb: #R_DEV_CULTIVATION_BLURP
+	Class: Boost
+
+	Point Cost: 700
+	Time Cost: 60
+
+	Icon: CardIcons::19
+	Color: #00ffa4
+
+	GainInfluenceCard(Cultivation)
+
+	SecondaryMoneyCost(700)

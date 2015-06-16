@@ -1,0 +1,15 @@
+Technology: DePlanet
+	Name: #R_DEV_PLANET
+	Description: #R_DEV_PLANET_DESC
+	Blurb: #R_DEV_PLANET_BLURP
+	Class: Boost
+
+	Point Cost: 500
+	Time Cost: 60
+
+	Icon: CardIcons::15
+	Color: #00ffa4
+
+	GainInfluenceCard(NamePlanet, Quality = 3)
+
+	SecondaryMoneyCost(500)

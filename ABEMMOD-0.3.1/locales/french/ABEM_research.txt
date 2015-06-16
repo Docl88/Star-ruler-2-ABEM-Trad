@@ -1,10 +1,12 @@
-﻿R_DEV_FTL_INCOME_DESC: <<
+﻿R_C: Lien
+R_DEV_FTL_INCOME_DESC: <<
 	[i][color=#aaa]Better control over the collection and refinement of FTL energy.[/color][/i]
 
 	Increases empire FTL income by 0.5/s.
 
 	[color=#42b4bd][b]Alternate Unlock:[/b] Spend 800 energy.[/color]
 >>
+R_DEV_CULTIVATION: Sustainability
 R_DEV_CULTIVATION_DESC: <<
 	[i][color=#aaa]Authorize research into more effective ways of cultivating new fruit types from scratch.[/color][/i]
 
@@ -12,6 +14,8 @@ R_DEV_CULTIVATION_DESC: <<
 
 	[color=#d1cb6a][b]Alternate Unlock:[/b] Spend §700k.[/color]
 >>
+R_DEV_CULTIVATION_BLURP: 1x Cultivation
+R_DEV_PLANET: Planetary Branding
 R_DEV_PLANET_DESC: <<
 	[i][color=#aaa]Develop newer, more efficient methods of commemorating planetary naming ceremonies.[/color][/i]
 
@@ -19,6 +23,7 @@ R_DEV_PLANET_DESC: <<
 
 	[color=#d1cb6a][b]Alternate Unlock:[/b] Spend §500k.[/color]
 >>
+R_DEV_PLANET_BLURP: 1x Name Planet(***)
 R_DEV_FTL_DESC: <<
 	[i][color=#aaa]New technologies to store and transport FTL energy.[/color][/i]
 
@@ -399,24 +404,32 @@ R_VOIDRAY_DESC: <<
 	
 	[i][bbloc=#S_VOIDRAY_DESC/][/i]
 >>
+R_CAT_MILITARY: Military Research
 R_CAT_MILITARY_DESC: <<
 	[color=#aaa][i]The art of permanently removing an opponent. Or, well, semi-permanently. Or just not getting removed by the opponent.[/i][/color]
 >>
+R_CAT_ENERGY: Energetics
 R_CAT_ENERGY_DESC: <<
 	[color=#aaa][i]How to produce power out of thin air. No, seriously![/i][/color]
 >>
+R_CAT_PLANET: Planetary Development
 R_CAT_PLANET_DESC: <<
 	[color=#aaa][i]Building... building... please come back in a few decades, my liege.[/i][/color]
 >>
+R_CAT_POLITICS: Political Science
 R_CAT_POLITICS_DESC: <<
 	[color=#aaa][i]I will not let this Republic that has stood for a thousand years be split in two! (Also known as the art of saying very little with as many words as possible.)[/i][/color]
 >>
+R_CAT_INDUSTRY: Industry
 R_CAT_INDUSTRY_DESC: <<
 	[color=#aaa][i]Discovering a method for building galaxy-sized starships, one star at a time.[/i][/color]
 >>
+R_CAT_PROPULSION: Dynamics
 R_CAT_PROPULSION_DESC: <<
 	[color=#aaa][i]Remember, children, fasten your seatbelts before you go to Ludicrous--- AAAAARGH![/i][/color]
 >>
+R_CAT_SELFDETERMINATION: Self-Determination
+R_CAT_EMPIRE: Empire
 R_INF_HULL_DESC: <<
 	[color=#aaa][i]Further advances in material sciences allow us to improve our hulls once more.[/i][/color]
 
@@ -583,6 +596,7 @@ R_SYS_DESTROYER_DESC: <<
 R_SPEC_DISCLAIMER: <<
 	[b]This is a specialization tech. Researching this will convert [color=#f00]$1[/color] nodes into link nodes, locking away their benefits for the rest of the game. Choose wisely.[/b]
 >>
+R_SPEC_FLAGSHIP1: Battleship Development
 R_SPEC_FLAGSHIP1_DESC: <<
 	[color=#aaa][i]Encouraging the empire's industrial machine to develop parts for flagships makes their construction cheaper, at the cost of making high-quality support ships more expensive.[/i][/color]
 
@@ -590,6 +604,7 @@ R_SPEC_FLAGSHIP1_DESC: <<
 
 	[bbloc=#R_SPEC_DISCLAIMER:Carrier Development/]
 >>
+R_SPEC_SUPPORT1: Carrier Development
 R_SPEC_SUPPORT1_DESC: <<
 	[color=#aaa][i]Encouraging the empire's industrial machine to develop parts for support ships makes their construction cheaper, at the cost of making high-quality flagships more expensive.[/i][/color]
 
@@ -597,6 +612,7 @@ R_SPEC_SUPPORT1_DESC: <<
 
 	[bbloc=#R_SPEC_DISCLAIMER:Battleship Development/]
 >>
+R_SPEC_FLAGSHIP2: Streamlined Battleships
 R_SPEC_FLAGSHIP2_DESC: <<
 	[color=#aaa][i]Removing some of the fragile components required to coordinate large fleets makes flagship maintenance cheaper and easier, though the flagship's C&C capabilities are reduced as a result.[/i][/color]
 
@@ -604,6 +620,7 @@ R_SPEC_FLAGSHIP2_DESC: <<
 
 	[bbloc=#R_SPEC_DISCLAIMER:Small Arms Development/]
 >>
+R_SPEC_SUPPORT2: Small Arms Development
 R_SPEC_SUPPORT2_DESC: <<
 	[color=#aaa][i]Refocusing the empire's weapon production towards the smaller armaments required by support ships increases their quality, but the quality of flagship weapons suffers because of this.[/i][/color]
 
@@ -611,6 +628,7 @@ R_SPEC_SUPPORT2_DESC: <<
 
 	[bbloc=#R_SPEC_DISCLAIMER:Streamlined Battleships/]
 >>
+R_SPEC_FLAGSHIP3: Battleship Manufacturing
 R_SPEC_FLAGSHIP3_DESC: <<
 	[color=#aaa][i]Specialized manufacturing processes allow for the faster construction of flagships. This comes at a cost to the speed at which support ships are built, though.[/i][/color]
 
@@ -618,6 +636,7 @@ R_SPEC_FLAGSHIP3_DESC: <<
 
 	[bbloc=#R_SPEC_DISCLAIMER:Targeting Sensor Shunt/]
 >>
+R_SPEC_SUPPORT3: Targeting Sensor Shunt
 R_SPEC_SUPPORT3_DESC: <<
 	[color=#aaa][i]Feeding sensor telemetry from a flagship to its support fleet increases the range at which the fleet can accurately fire at a target. However, the required sensor configuration is inadequate for the flagship's own weapons, and the sensors on support ships are only good enough to take advantage of the flagship's help.[/i][/color]
 
@@ -625,6 +644,7 @@ R_SPEC_SUPPORT3_DESC: <<
 
 	[bbloc=#R_SPEC_DISCLAIMER:Battleship Manufacturing/]
 >>
+R_SPEC_FLAGSHIP4: Reinforced Architecture
 R_SPEC_FLAGSHIP4_DESC: <<
 	[color=#aaa][i]A better understanding of the structural weaknesses of flagships and their shields allows us to reinforce those weak spots, increasing the endurance of the ship as a whole.[/i][/color]
 
@@ -632,6 +652,7 @@ R_SPEC_FLAGSHIP4_DESC: <<
 
 	[bbloc=#R_SPEC_DISCLAIMER:Support Ship Manufacturing/]
 >>
+R_SPEC_SUPPORT4: Support Ship Manufacturing
 R_SPEC_SUPPORT4_DESC: <<
 	[color=#aaa][i]New insights into the requirements of support ships allow for less or cheaper materials to be used to achieve the same effects, essentially increasing the rate at which they can be mass-produced.[/i][/color]
 
