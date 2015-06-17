@@ -1,0 +1,22 @@
+RWPROGENITOR: Progenitor
+RWCORVETTE: Corvette
+RWFRIGATE: Frigate
+RWDESTROYER: Destroyer
+RWCRUISER: Cruiser
+RWBATTLECRUISER: Battlecruiser
+RWBATTLESHIP: Battleship
+RWTITAN: Dreadnaught
+RWHEAVYCARRIER: Heavy Carrier
+RWSPECIAL: Heavy Carrier
+RWSTATION: Station
+TYRANT: Tyrant
+TYRANTCORVETTE: TyrantCorvette
+TYRANTFRIGATE: TyrantFrigate
+TYRANTDESTROYER: TyrantDestroyer
+TYRANTCRUISER: TyrantCruiser
+TYRANTBATTLECRUISER: TyrantBattlecruiser
+TYRANTBATTLESHIP: TyrantBattleship
+TYRANTTITAN: TyrantTitan
+TYRANTHEAVYCARRIER: TyrantHeavyCarrier
+TYRANTSPOOKY: TyrantSpooky
+TYRANTSPECIAL: TyrantSpecial
