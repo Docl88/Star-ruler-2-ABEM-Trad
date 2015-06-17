@@ -1,0 +1,11 @@
+Technology: SuperLaser
+	Name: #R_SYS_SUPERLASER
+	Description: #R_SYS_SUPERLASER_DESC
+	Point Cost: 2500
+	Class: Unlock
+	Icon: SLaser
+	Color: #ff1003
+	ModAttribute(ProgenitorTechProgress, Add, 2.5)
+	SkipOnUnlockedSubsystem(SuperLaser)
+	UnlockSubsystem(SuperLaser)
+	SecondaryEnergyCost(2000)

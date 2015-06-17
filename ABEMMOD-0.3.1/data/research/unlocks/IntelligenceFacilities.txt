@@ -1,0 +1,22 @@
+Technology: IntelFacilities
+	Name: #R_BLD_INTEL
+	Description: #R_BLD_INTEL_DESC
+	Blurb: #R_BLD_INTEL_BLURB
+	Point Cost: 1000
+	Time Cost: 120
+	Icon: techScanner
+	Class: Unlock
+	Color: #aa19ff
+	ModAttribute(ProgenitorTechProgress, Add, 2)
+	SkipOnUnlockedTag(IntelligenceFacil)
+	UnlockTag(IntelligenceFacil)
+Technology: NylliIntel
+	Name: #R_ORB_INTEL
+	Description: #R_ORB_INTEL_DESC
+	Class: Unlock
+	Icon: techScanner
+	Color: #aa19ff
+	Point Cost: 1000
+	Time Cost: 120
+	SkipOnUnlockedTag(NylliIntel)
+	UnlockTag(NylliIntel)

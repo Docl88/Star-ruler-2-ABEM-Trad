@@ -1,0 +1,11 @@
+Technology: HeavyRailgun
+	Name: #R_SYS_HEAVYRAIL
+	Description: #R_SYS_HEAVYRAIL_DESC
+	Point Cost: 700
+	Class: Unlock
+	Time Cost: 120
+	Icon: HeavyRailgun
+	Color: #ff0235
+	ModAttribute(ProgenitorTechProgress, Add, 0.5)
+	SkipOnUnlockedSubsystem(HeavyRailgunBattery)
+	UnlockSubsystem(HeavyRailgunBattery)

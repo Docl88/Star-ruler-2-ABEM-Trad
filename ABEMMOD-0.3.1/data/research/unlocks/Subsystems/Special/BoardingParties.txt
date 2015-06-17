@@ -1,0 +1,10 @@
+Technology: BoardingParty
+	Name: #R_BOARDING_PARTY
+	Description: #R_BOARDING_PARTY_DESC
+	Class: Unlock
+	Icon: shuttle
+	Color: #710cff
+	Point Cost: 500
+	Time Cost: 120
+	ModAttribute(ProgenitorTechProgress, Add, 1)
+	UnlockSubsystem(BoardingParty)

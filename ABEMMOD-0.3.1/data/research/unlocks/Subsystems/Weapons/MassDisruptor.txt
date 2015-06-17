@@ -1,0 +1,11 @@
+Technology: MatterDisruptor
+	Name: #R_MATTERDISRUPTOR
+	Description: #R_MATTERDISRUPTOR_DESC
+	Class: Unlock
+	Point Cost: 700
+	Time Cost: 120
+	Icon: WaveEmitter
+	Color: #06c0ff
+	SkipOnUnlockedSubsystem(MatterDisruptor)
+	ModAttribute(ProgenitorTechProgress, Add, 2.5)
+	UnlockSubsystem(MatterDisruptor)

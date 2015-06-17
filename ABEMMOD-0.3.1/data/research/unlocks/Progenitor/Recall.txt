@@ -1,0 +1,13 @@
+Technology: Recall
+	Name: #R_RECALL
+	Description: #R_RECALL_DESC
+	Icon: ActionBarIcons::7
+	Point Cost: 1500
+	Time Cost: 180
+	Class: Unlock
+	Color: #bc12de
+	UnlockTag(Recall)
+	ModAttribute(ProgenitorTechProgress, Add, 15)
+	RequireUnlockTag(ProgenitorTech)
+	AutoUnlockOnUnlockedTag(Recall)
+	UnlockSubsystem(RecallDevice)

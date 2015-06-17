@@ -1,0 +1,12 @@
+Technology: RepairBay
+	Name: #R_SYS_REPAIRBAY
+	Description: #R_SYS_REPAIRBAY_DESC
+	Icon: HyperdenseLaser::2 * #5cf90e
+	Point Cost: 2000
+	Time Cost: 360
+	Class: Unlock
+	Color: #5cf90e
+	ModAttribute(ProgenitorTechProgress, Add, 2.5)
+	SkipOnUnlockedSubsystem(RepairBay)
+	SecondaryMoneyCost(3000)
+	UnlockSubsystem(RepairBay)

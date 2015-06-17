@@ -1,0 +1,12 @@
+Technology: SupplyTransfer
+	Name: #R_SYS_SUPPLYTRANSFER
+	Description: #R_SYS_SUPPLYTRANSFER_DESC
+	Icon: Laser::2 * #38a2f9
+	Point Cost: 2000
+	Time Cost: 360
+	Class: Unlock
+	Color: #38a2f9
+	ModAttribute(ProgenitorTechProgress, Add, 2.5)
+	SkipOnUnlockedSubsystem(EnergyTransmitter)
+	SecondaryEnergyCost(800)
+	UnlockSubsystem(EnergyTransmitter)

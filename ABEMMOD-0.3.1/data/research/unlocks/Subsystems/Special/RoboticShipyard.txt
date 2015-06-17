@@ -1,0 +1,11 @@
+Technology: RoboticShipyard
+	Name: #R_SYS_ROBOTICSHIPYARD
+	Description: #R_SYS_ROBOTICSHIPYARD_DESC
+	Class: Unlock
+	Point Cost: 400
+	Time Cost: 120
+	Icon: TechIcons::51
+	Color: #ff0739
+	ModAttribute(ProgenitorTechProgress, Add, 1.5)
+	SkipOnUnlockedSubsystem(RoboticShipyard)
+	UnlockSubsystem(RoboticShipyard)

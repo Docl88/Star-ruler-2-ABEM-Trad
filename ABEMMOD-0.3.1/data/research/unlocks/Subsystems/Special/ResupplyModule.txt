@@ -1,0 +1,11 @@
+Technology: ResupplyMod
+	Name: #R_SYS_RESUPPLY
+	Description: #R_SYS_RESUPPLY_DESC
+	Class: Unlock
+	Point Cost: 250
+	Time Cost: 60
+	Icon: GuiOrbitalIcons::7
+	Color: #38a2f9
+	ModAttribute(ProgenitorTechProgress, Add, 1.5)
+	SkipOnUnlockedSubsystem(ResupplyModule)
+	UnlockSubsystem(ResupplyModule)

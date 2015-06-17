@@ -1,0 +1,12 @@
+Technology: ProgenitorComputer
+	Name: #R_SYS_PROGENITORCOMPUTER
+	Description: #R_SYS_PROGENITORCOMPUTER_DESC
+	Icon: TechIcons::58
+	Point Cost: 1500
+	Time Cost: 180
+	Class: Unlock
+	Color: #de8508
+	ModAttribute(ProgenitorTechProgress, Add, 15)
+	RequireUnlockTag(ProgenitorTech)
+	AutoUnlockOnUnlockedTag(ProgenitorComputer)
+	UnlockSubsystem(ProgenitorComputer)

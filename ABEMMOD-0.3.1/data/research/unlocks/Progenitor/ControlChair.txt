@@ -1,0 +1,12 @@
+Technology: ControlChair
+	Name: #R_SYS_CONTROLCHAIR
+	Description: #R_SYS_CONTROLCHAIR_DESC
+	Icon: HexagonSubsystems::3
+	Point Cost: 1500
+	Time Cost: 180
+	Class: Unlock
+	Color: #28de0d
+	ModAttribute(ProgenitorTechProgress, Add, 15)
+	RequireUnlockTag(ProgenitorTech)
+	AutoUnlockOnUnlockedTag(ControlChair)
+	UnlockSubsystem(ControlChair)

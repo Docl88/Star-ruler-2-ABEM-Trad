@@ -1,0 +1,12 @@
+Technology: ZeroPoint
+	Name: #R_SYS_ZPG
+	Description: #R_SYS_ZPG_DESC
+	Class: Unlock
+	Point Cost: 2000
+	Time Cost: 180
+	Icon: ZeroPoint
+	Color: #24ff99
+	ModAttribute(ProgenitorTechProgress, Add, 10)
+	SkipOnUnlockedSubsystem(ZeroPoint)
+	SecondaryEnergyCost(2000)
+	UnlockSubsystem(ZeroPoint)

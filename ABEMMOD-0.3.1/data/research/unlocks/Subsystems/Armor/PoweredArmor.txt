@@ -1,0 +1,13 @@
+Technology: PoweredArmor
+	Name: #R_POWERED_ARMOR
+	Description: #R_POWERED_ARMOR_DESC
+	Blurb: #R_POWERED_ARMOR_BLURB
+	Class: Unlock
+	Icon: PoweredArmor
+	Color: #97c0ff
+	Point Cost: 800
+	Time Cost: 120
+	ModAttribute(ProgenitorTechProgress, Add, 2.5)
+	AddModifier(tag/IsArmor::HpFactor(1.10))
+	UnlockSubsystem(PoweredArmor)
+	UnlockSubsystem(PoweredArmor)

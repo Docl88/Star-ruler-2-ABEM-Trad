@@ -1,0 +1,11 @@
+Technology: SS
+	Name: #R_SYS_SLIPSTREAM
+	Description: #R_SYS_SLIPSTREAM_DESC
+	Icon: TechIcons::57
+	Point Cost: 2500
+	Time Cost: 300
+	Class: Keystone
+	Color: #00c0ff
+	ModAttribute(ProgenitorTechProgress, Add, 5)
+	SkipOnUnlockedSubsystem(Slipstream)
+	UnlockSubsystem(Slipstream)

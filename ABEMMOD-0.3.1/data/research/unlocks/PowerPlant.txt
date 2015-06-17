@@ -1,0 +1,27 @@
+Technology: PowerPlant
+	Name: #R_BLD_POWERPLANT
+	Description: #R_BLD_POWERPLANT_DESC
+	Class: Unlock
+
+	Point Cost: 1000
+	Time Cost: 100
+
+	Icon: TechIcons::6
+	Color: #00f3ff
+
+	UnlockTag(PowerPlant)
+
+	ModAttribute(ProgenitorTechProgress, Add, 1.5)
+	SkipOnUnlockedTag(PowerPlant)
+	SecondaryMoneyCost(1500)
+Technology: NylliPowerPlant
+	Name: #R_ORB_POWERPLANT
+	Description: #R_ORB_POWERPLANT_DESC
+	Class: Unlock
+	Icon: TechIcons::6
+	Color: #00f3ff
+	Point Cost: 1000
+	Time Cost: 100
+	SecondaryMoneyCost(1500)
+	SkipOnUnlockedTag(NylliPowerPlant)
+	UnlockTag(NylliPowerPlant)

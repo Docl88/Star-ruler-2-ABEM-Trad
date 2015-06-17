@@ -1,0 +1,16 @@
+Technology: CrystalineArmor
+	Name: #R_CRYSTAL_ARMOR
+	Description: #R_CRYSTAL_ARMOR_DESC
+	Class: Unlock
+
+	Point Cost: 700
+	Time Cost: 240
+
+	Icon: CrystalArmor
+	Color: #449212
+
+	UnlockSubsystem(CrystalArmor)
+
+	ModAttribute(ProgenitorTechProgress, Add, 5)
+	SkipOnUnlockedSubsystem(CrystalArmor)
+	SecondaryMoneyCost(2000)

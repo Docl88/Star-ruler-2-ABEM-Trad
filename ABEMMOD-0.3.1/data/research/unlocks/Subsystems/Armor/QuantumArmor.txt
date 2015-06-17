@@ -1,0 +1,16 @@
+Technology: QuantumArmor
+	Name: #R_SYS_QUANTUM_ARMOR
+	Description: #R_SYS_QUANTUM_ARMOR_DESC
+	Class: Unlock
+
+	Point Cost: 1000
+	Time Cost: 240
+
+	Icon: QuantumArmor
+	Color: #449944
+
+	UnlockSubsystem(QuantumArmor)
+
+	ModAttribute(ProgenitorTechProgress, Add, 5)
+	SkipOnUnlockedSubsystem(QuantumArmor)
+	SecondaryMoneyCost(3000)

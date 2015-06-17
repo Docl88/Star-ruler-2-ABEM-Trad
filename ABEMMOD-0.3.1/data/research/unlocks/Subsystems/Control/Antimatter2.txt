@@ -1,0 +1,13 @@
+Technology: Antimatter2
+	Name: #R_SYS_SHIELDED_AMGEN
+	Description: #R_SYS_SHIELDED_AMGEN_DESC
+	Blurb: #R_SYS_SHIELDED_AMGEN_BLURB
+	Class: Unlock
+	Point Cost: 1500
+	Time Cost: 180
+	Icon: TechIcons::7
+	Color: #33ffcc
+	ModAttribute(ProgenitorTechProgress, Add, 5)
+	UnlockSubsystem(ShieldedAntimatter)
+	SecondaryEnergyCost(1700)
+	UnlockSubsystem(ShieldedAntimatter)

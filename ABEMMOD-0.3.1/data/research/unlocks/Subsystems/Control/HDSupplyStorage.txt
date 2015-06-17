@@ -1,0 +1,12 @@
+Technology: HDSupply
+	Name: #R_HDSUPPLY
+	Description: #R_HDSUPPLY_DESC
+	Icon: SupplyStorage*#9e17ff
+	Class: Unlock
+	Point Cost: 600
+	Time Cost: 60
+	Color: #ef19ff
+	ModAttribute(ProgenitorTechProgress, Add, 5)
+	SkipOnUnlockedSubsystem(HDSupplyModule)
+	UnlockSubsystem(HDSupplyModule)
+	SecondaryEnergyCost(700)

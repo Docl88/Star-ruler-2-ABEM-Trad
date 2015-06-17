@@ -1,0 +1,12 @@
+Technology: EngBay
+	Name: #R_SYS_ENGINEERING
+	Description: #R_SYS_ENGINEERING_DESC
+	Blurb: #R_SYS_ENGINEERING_BLURB
+	Class: Unlock
+	Point Cost: 300
+	Time Cost: 60
+	Icon: TechIcons::50
+	Color: #44ff47
+	ModAttribute(ProgenitorTechProgress, Add, 2.5)
+	UnlockSubsystem(EngBay)
+	SkipOnUnlockedSubsystem(EngBay)

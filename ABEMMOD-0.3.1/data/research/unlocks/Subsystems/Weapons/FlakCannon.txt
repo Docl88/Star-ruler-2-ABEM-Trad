@@ -1,0 +1,12 @@
+Technology: Flak
+	Name: #R_SYS_FLAK
+	Description: #R_SYS_FLAK_DESC
+	Blurb: #R_SYS_FLAK_BLURB
+	Class: Unlock
+	Icon: TechIcons::11
+	Point Cost: 600
+	Time Cost: 60
+	Color: #b1ff08
+	ModAttribute(ProgenitorTechProgress, Add, 0.5)
+	SkipOnUnlockedSubsystem(FlakCannon)
+	UnlockSubsystem(FlakCannon)
