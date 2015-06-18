@@ -4,11 +4,13 @@ STATUS_POWER_CELL_DESC: <<
 	Fleet Effectiveness increased by 40%.
 >>
 STATUS_POWER_CELL: Ancient Retrofit
+STATUS_GDF: Go Down Fighting
 STATUS_GDF_DESC: <<
 	Overloading its primary reactor.
 
 	Will gain up to 130% effectiveness before exploding, dealing (5*Power)^(1/2) damage to all enemies in a (2*Power)^(1/2) radius.
 >>
+STATUS_LW: Rally Cry
 STATUS_LW_DESC: <<
 	Rallied by a nearby Admiral.
 
@@ -19,6 +21,7 @@ STATUS_EXHAUSTED_DESC: <<
 
 	Fleet effectiveness reduced by 50% for 4 minutes.
 >>
+STATUS_MEL: Mask Energy Levels
 STATUS_MEL_DESC: <<
 	Has had its energy signature masked by an Admiral's flagship.
 
@@ -29,6 +32,7 @@ STATUS_ABEMINFILTRATED_DESC: <<
 
 	Fleet effectiveness reduced by 10% (also applies to planetary defense fleets). The saboteur frequently transmits data to his superiors, granting vision of the star system.
 >>
+STATUS_BOARDED: Boarded
 STATUS_BOARDED_DESC: <<
 	This object is currently being boarded. Depending on the strength of the boarding party, it may soon be captured. No more boarding parties can be sent to the object until the boarding action ends.
 	
@@ -50,6 +54,7 @@ STATUS_TRANSPORTED: Hauler
 STATUS_TRANSPORTED_DESC: <<
 	This fleet is being led by a Hauler. Combat effectiveness is reduced by 50%.
 >>
+STATUS_STELLAR_SHIELD: Shielded
 STATUS_STELLAR_SHIELD_DESC: <<
 	This stellar object is being protected from Graviton Condenser attacks. If the shield is powerful enough, the only way to destroy the object is to destroy the shield generator, which is probably located on a nearby flagship, orbital or planet.
 >>
@@ -63,5 +68,14 @@ STATUS_ENVOY_DESC: <<
 
 	Loyalty protection only takes effect if the planet's owner and the Envoy's owner are in an Alliance.
 >>
+STATUS_ORB_EXP_PLATFORMS: Orbital Exploitation Platforms
 STATUS_ORB_EXP_PLATFORMS_DESC: This planet is being strip-mined by automated orbital exploitation platforms.
 STATUS_PROGENITOR_COMPUTER_BOOST_DESC: Heavy computation done by the Progenitor-designed control computer aboard the flagship is significantly increasing this fleet's efficiency and combat strength for the first 60 seconds of any combat.
+STATUS_SOILENHANCED: SoilEnhanced
+STATUS_TECHCAP: TechCapital
+STATUS_HYPERIONFLEET: HyperionFleetCommand
+STATUS_LASERTURRET: Laser Turret
+STATUS_RAILGUNTURRET: Railgun Turret
+STATUS_MISSILETURRET: Missile Turret
+STATUS_NYLLIFOOD: Hydroponics Station
+STATUS_NYLLIWATER: Water Reclamation Facility

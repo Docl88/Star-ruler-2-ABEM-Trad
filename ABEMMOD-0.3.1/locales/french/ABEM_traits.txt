@@ -28,6 +28,7 @@ TRAIT_BERSERKERS_DESC: <<
   [vspace=3/][img=ThumbsDown;22][/img]The Influence cost of playing support cards during a vote is increased by 2, while the cost of starting a vote is increased by 4.
   [vspace=3/][img=ResourceIcon::5;22][/img]All planets have an additional 256 Support Capacity.
 >>
+TRAIT_RECLUSIVE_RINGWORLDERS: Reclusive Ringworlders
 TRAIT_RECLUSIVE_RINGWORLDERS_DESC: <<
 	[vspace=3/][img=PlanetType::14;28]Instead of planets, starts with a ring world and the technology to build more.[/img]
 	[vspace=3/][img=ActionBarIcons::1;22]Cannot properly colonize planets, instead set up exploitation platforms in orbit around uninhabited planets.  These grant access to the resource but only 1 virtual(or robot, or exile) population, and will eventually drain a planet dry, leaving a barren husk.[/img]
@@ -41,3 +42,17 @@ TRAIT_VERDANT_DESC: <<|
 	[vspace=3/][img=BuildingSprites::0;22]Does [b]not[/b] have any form of cities.[/img]
 	[vspace=3/][img=AttributeIcons::0;22]Must construct [b]Stalks[/b] on planets to be able to use pressure.[/img]
 >>
+TRAIT_HANDICAP1: Just got the game on Steam!
+TRAIT_HANDICAP1_DESC: Increase Fleet Eficiency by 30%
+TRAIT_HANDICAP2: Newbie
+TRAIT_HANDICAP2_DESC: Increase your Fleet Eficiency by 20%
+TRAIT_HANDICAP3: Casual Gamer
+TRAIT_HANDICAP3_DESC: Increase your Fleet Eficiency by 10%
+TRAIT_HANDICAP0: Normal
+TRAIT_HANDICAP0_DESC: I will handle this myself!
+TRAIT_HANDICAP4: Veteran Player
+TRAIT_HANDICAP4_DESC: Reduce Fleet Eficiency by 10%
+TRAIT_HANDICAP5: Hardcore Player
+TRAIT_HANDICAP5_DESC: Reduce your Fleet Eficiency by 20%
+TRAIT_HANDICAP6: Monster
+TRAIT_HANDICAP6_DESC: Stop the bears and dinosaurs. 30% Handicap.

@@ -1,0 +1,5 @@
+Status: HyperionFleet
+	Name: #STATUS_HYPERIONFLEET
+	Icon: MissileTurret
+	Unique: True
+	AddFleetCommand(10000)

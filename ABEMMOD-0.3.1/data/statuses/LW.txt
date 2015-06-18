@@ -1,0 +1,19 @@
+Status: LW
+	Name: #STATUS_LW
+	Description: #STATUS_LW_DESC
+	Icon: GDF
+	Unique: True
+	Color: #f1acff
+	TriggerPeriodic(AddPermanentEffectiveness(-0.275), Interval = 60)
+	TriggerPeriodic(AddStatus(Exhausted, Duration = 240), Interval = 60)
+	TriggerPeriodic(AddPermanentEffectiveness(0.025), Interval = 5)
+
+Status: Exhausted
+
+	Name: Exhausted
+	Description: #STATUS_EXHAUSTED_DESC
+	Icon: Exhaust
+	Unique: True
+	AddFleetEffectiveness(-0.5)
+	TriggerPeriodic(RemoveStatus(LW), Interval = 1)
+	

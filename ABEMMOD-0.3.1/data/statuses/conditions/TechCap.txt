@@ -1,0 +1,4 @@
+Status: TechCap
+	Name: #STATUS_TECHCAP
+	AddResource(Research, 10)
+	ModCivResourceMult(Research, 0.5)

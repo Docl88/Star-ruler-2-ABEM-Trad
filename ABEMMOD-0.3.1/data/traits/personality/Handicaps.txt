@@ -1,0 +1,61 @@
+Trait: Handicap1
+	Name: #TRAIT_HANDICAP1
+	Description: #TRAIT_HANDICAP1_DESC
+	Icon: PlanetLevelIcons::2
+	Color: #50ff1a
+	Category: Handicaps
+	ModAttribute(FleetEfficiencyFactor, Add, 0.3)
+	Unique: Handicap
+
+Trait: Handicap2
+	Name: #TRAIT_HANDICAP2
+	Description: #TRAIT_HANDICAP2_DESC
+	Category: Handicaps
+	Icon: PlanetLevelIcons::1
+	ModAttribute(FleetEfficiencyFactor, Add, 0.2)
+	Unique: Handicap
+
+Trait: Handicap3
+	Name: #TRAIT_HANDICAP3
+	Description: #TRAIT_HANDICAP3_DESC
+	Color: #ff0000
+	Icon: PlanetLevelIcons::0
+	Category: Handicaps
+	ModAttribute(FleetEfficiencyFactor, Add, 0.1)	
+	Unique: Handicap
+
+Trait: Handicap0
+	Name: #TRAIT_HANDICAP0
+	Description: #TRAIT_HANDICAP0_DESC
+	Color: #ff0000
+	Icon: HappyFace
+	Category: Handicaps
+	Default: True
+	Unique: Handicap
+
+Trait: Handicap4
+	Name: #TRAIT_HANDICAP4
+	Description: #TRAIT_HANDICAP4_DESC
+	Icon: PlanetLevelIcons::0*#ff1b0f
+	Color: #ff1b0f
+	Category: Handicaps
+	ModAttribute(FleetEfficiencyFactor, Add, -0.1)
+	Unique: Handicap
+
+Trait: Handicap5
+	Name: #TRAIT_HANDICAP5
+	Description: #TRAIT_HANDICAP5_DESC
+	Category: Handicaps
+	Icon: PlanetLevelIcons::1*#ff1b0f
+	Color: #ff1b0f
+	ModAttribute(FleetEfficiencyFactor, Add, -0.2)
+	Unique: Handicap
+	
+Trait: Handicap6
+	Name: #TRAIT_HANDICAP6
+	Description: #TRAIT_HANDICAP6_DESC
+	Color: #ff0000
+	Icon: PlanetLevelIcons::2*#ff1b0f
+	Category: Handicaps
+	ModAttribute(FleetEfficiencyFactor, Add, -0.3)
+	Unique: Handicap
