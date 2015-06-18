@@ -1,0 +1,32 @@
+Subsystem: RepairBay
+	Name: #S_REPAIRBAY
+	Description: #S_REPAIRBAY_DESC
+	BaseColor: #5cf90e
+	Picture: HyperdenseLaser::0 * #5cf90e
+	Elevation: 2
+
+	Tags: BaseCost, Category:Equipment, Ability:HullHeal
+	Tags: HasInternals, ExteriorCore
+	Hull: Flagship, Station
+
+	EvaluationOrder: -10
+
+	Size := HexSize * Hexes
+
+
+	Hex.Resistance := 0.4
+	Hex.HP := 20 * HexSize
+	Hex.Mass := HexSize
+	Requires:
+		Command = 1
+		Power = PowerUse
+
+	HullHealing := 24 * Size
+	TypeColor: #00ff18
+	PowerUse := 15 * Size
+	Module: Core
+		Sprite: HyperdenseLaser::0 * #5cf90e
+		Hex.BuildCost := Hex.BuildCost * 3
+		Hex.MaintainCost := Hex.MaintainCost * 3
+		DrawMode: 1
+	Module: Default

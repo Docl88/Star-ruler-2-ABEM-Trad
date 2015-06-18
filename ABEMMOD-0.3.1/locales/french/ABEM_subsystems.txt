@@ -225,6 +225,8 @@ S_FLING_DESC: <<
 	[img=Minus]Without a Hyperdrive or Slipstream Generator, at least one flagship/station must remain at the target location or use sublight propulsion for the return trip.[/img]
 	[img=MenuIcons::3;20]Only the core is required for the subsystem to operate. Additional hexes provide no benefits whatsoever.[/img]
 >>
+GATE: Gate Constructor
+GATE_DESC: Allows the ship to construct into a gate and back.
 S_GATE_CORE_DESC: <<
 	An artificial wormhole is suspended and maintained just beyond the station's outer hull.
 	
@@ -291,6 +293,7 @@ S_SUPERLASER_DESC: <<
 	[img=Minus]Very limited firing arc.[/img]
 	[img=Minus]Requires high amounts of Control.[/img]
 >>
+S_ROBOTICSHIPYARD: Automated Shipyard
 S_ROBOTICSHIPYARD_DESC: <<
 	Salvages raw materials from space, using them to construct new support ships.
 
@@ -300,6 +303,7 @@ S_ROBOTICSHIPYARD_DESC: <<
 	[img=Minus]Cannot construct ships with a maintenance cost.[/img]
 	[img=Minus]Requires power and a high amount of Control.[/img]
 >>
+S_SPYMODULE: Infiltration Module
 S_SPYMODULE_DESC: <<
 	A covert transporter system capable of sending infiltrators to enemy ships and planets. Grants the Transport Saboteur and Counterintelligence abilities.
 
@@ -347,7 +351,8 @@ S_QUANTUM_ARMOR_DESC: <<
 	[img=Minus]High labor cost.[/img]
 >>
 S_ORE_ARMOR: Raw Armor
-#S_ORE_ARMOR_DESC: WIP Numbers Wall of text
+S_ORE_ARMOR_DESC: WIP Numbers Wall of text
+S_REPAIRBAY: Nanite Dispenser
 S_REPAIRBAY_DESC: <<
 	Systems dedicated to assembling and dispensing copious quantities of nanites to repair an allied fleet.
 	
@@ -357,6 +362,7 @@ S_REPAIRBAY_DESC: <<
 	[img=Minus]Does not contribute to the ship's self-repair capabilities.[/img]
 	[img=Minus]Repair spreading may render the magnitude of the repairs insignificant when healing large fleets.[/img]
 >>
+S_SHIELDREGENERATOR: Shield Regenerator
 S_SHIELDREGENERATOR_DESC: <<
 	Systems dedicated to transmitting energy to an allied fleet in a manner that makes it easily usable by its shield generators.
 	
@@ -366,6 +372,7 @@ S_SHIELDREGENERATOR_DESC: <<
 	[img=Minus]Does not contribute to the ship's shields in any way.[/img]
 	[img=Minus]Regeneration spreading may render the magnitude of the regeneration insignificant when healing large fleets.[/img]
 >>
+S_SHIELDTRANSMITTER: Shield Transmitter
 S_SHIELDTRANSMITTER_DESC: <<
 	A plasma beam emitter which drains plasma from the ship's shields, transmitting it towards an allied flagship for integration in its shields.
 	
@@ -373,6 +380,7 @@ S_SHIELDTRANSMITTER_DESC: <<
 	[img=MenuIcons::3;20]For an increased build and maintenance cost, multiple Shield Transmitters can transfer shields to multiple flagships simultaneously or focus the transfer towards a single ship.[/img]
 	[img=MenuIcons::3;20][i][bbloc=#ABL_SHIELDTRANSFER_DESC/][/i][/img]
 >>
+S_ENERGYTRANSMITTER: Energy Transferral Beam
 S_ENERGYTRANSMITTER_DESC: <<
 	A particle beam configured to transfer energy to an allied flagship with remarkable efficiency.
 	
@@ -380,6 +388,7 @@ S_ENERGYTRANSMITTER_DESC: <<
 	[img=MenuIcons::3;20]For an increased build and maintenance cost, multiple Energy Transferral Beams can transfer supplies to multiple flagships simultaneously or focus the transfer towards a single ship.[/img]
 	[img=MenuIcons::3;20][i][bbloc=#ABL_SUPPLYTRANSFER_DESC/][/i][/img]
 >>
+S_DEFENSIVEMATRIX: Defensive Matrix Generator
 S_DEFENSIVEMATRIX_DESC: <<
 	Generates a highly charged plasma field, acting as a temporary shield. The device is also capable of transmitting the plasma towards an allied flagship, attaching the field to that ship instead.
 	
@@ -477,6 +486,7 @@ S_RECHARGERMODULE_DESC: <<
 	[img=Minus]Additional regeneration does not apply in combat.[/img]
 	[img=MenuIcons::3;20]Only the core is required for the subsystem to operate. Additional hexes provide no benefits whatsoever.[/img]
 >>
+S_ENGINEERING_BAY: Engineering Bay
 S_ENGINEERING_BAY_DESC: <<
 	Specialized equipment and personnel for battlefield assembly or repairs.
 	

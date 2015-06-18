@@ -1,0 +1,28 @@
+Subsystem: RoboticShipyard
+	Name: #S_ROBOTICSHIPYARD
+	Description: #S_ROBOTICSHIPYARD_DESC
+	Elevation: 2
+
+	Tags: HighMaint, Category:Manufacturing, NoBackWall
+	Tags: HasInternals
+	Hull: Flagship,Station
+
+
+	Size := HexSize * Hexes
+	Hex.Mass := 2*HexSize
+
+	Hex.Maintenance := 5 * HexSize
+	Hex.Resistance := 0.2
+	Hex.HP := 18 * HexSize
+	Defense := Size*0.05
+	BaseColor: #ff4a08
+	TypeColor: #ff4a08
+	PowerUse := 5*Size
+	Module: Core
+		Sprite: TechIcons::40
+	Requires:
+		Command = Hexes
+		Power = PowerUse
+
+
+	Hook: AddLocalDefense(Defense, Overflow Global = True, Global Factor = 0.5)
