@@ -155,6 +155,7 @@ S_SHIELDED_AMGEN_DESC: <<
 	[img=Minus]High construction cost.[/img]
 	[img=Minus]Provides less power and resupplies the ship slower than a regular antimatter generator.[/img]
 >>
+HDSUPPLYMODULE: High Density Supply Storage
 HDSUPPLYMODULE_DESC: <<
 	Adapting the technologies behind Quantum Armor allows us to transfer some of our supplies and ammunition out of our physical universe, to be brought back for use in combat and sieging planets.
 
@@ -174,6 +175,9 @@ S_REMNANTSHIELD_DESC: <<
 	[img=Minus]Weakened shields allow some damage through.[/img]
 	[img=Minus]Very expensive, and requires a lot of power.[/img]
 >>
+S_ADAMANTIUM_ARMOR: AdamantiumArmor
+S_ADAMANTIUM_ARMOR_DESC: Not Implemented
+S_REMNANT_ARMOR: Progenitor Armor
 S_REMNANT_ARMOR_DESC: <<
 	Incredibly advanced Progenitor armor. Lighter than Quantum Armor, but tougher than Neutronium Armor.
 
@@ -229,6 +233,7 @@ S_GATE_CORE_DESC: <<
 	[img=Plus][img=Minus]No spike FTL cost. Instead, costs 0.15 FTL per second to maintain.[/img][/img]
 	[img=MenuIcons::3;20]Only the core is required for the subsystem to operate. Additional hexes provide no benefits whatsoever.[/img]
 >>
+S_CRYSTAL_ARMOR: Crystalline Armor
 S_CRYSTAL_ARMOR_DESC: <<
 	A resilient crystalline lattice capable of absorbing energy from attacks and channeling it into a ship's shields.
 
@@ -237,6 +242,7 @@ S_CRYSTAL_ARMOR_DESC: <<
 	[img=MenuIcons::3;20]Goes very well with low-regeneration shields, such as the Covariant shield.[/img]
 	[img=Minus]Somewhat wasteful if ship has no shields.[/img]
 >>
+S_NANO_ARMOR: Nanite Armor
 S_NANO_ARMOR_DESC: <<
 	A pseudo-liquid block of armor consisting of a high quantity of nanites. The nanites use power from the ship's reactor to repair each other, resulting in an armor with considerable regenerative ability.
 
@@ -248,6 +254,7 @@ S_NANO_ARMOR_DESC: <<
 	[img=Minus]Initial assembly of the nanites is very labor-intensive. It is also slightly less expensive than synthesizing Neutronium.[/img]
 	[img=Minus]Significant maintenance costs due to having to completely reconstruct any nanites that are blown off into space.[/img]
 >>
+S_COMPOSITE_ARMOR: Composite Armor
 S_COMPOSITE_ARMOR_DESC: <<
 	A uniform, seamless coat of a highly resistant composite material.
 
@@ -255,6 +262,7 @@ S_COMPOSITE_ARMOR_DESC: <<
 	[img=MenuIcons::3;20]Just as heavy as Remnant or Reactive Armor. Slightly tougher than Ablative, but weaker than Plate Armor.[/img]
 	[img=Minus]Requires a low amount of maintenance, and is twice as labor-intensive as - and slightly more expensive than - Plate Armor.[/img]
 >>
+S_POWERED_ARMOR: Powered Armor
 S_POWERED_ARMOR_DESC: <<
 	Targeted electromagnetic deflectors placed on the ship's exterior.
 
@@ -297,6 +305,10 @@ S_SPYMODULE_DESC: <<
 
 	[img=Plus]The only subsystem capable of countering "Infiltrate" cards or enemy Saboteurs.[/img]
 >>
+S_NANO_REPAIR: Nano repair
+S_NANO_REPAIR_DESC: Description à faire
+S_RESEARCHLAB: Space Lab
+SYS_ADMIRALBAY: Improved Command Deck
 SYS_ADMIRALBAY_DESC: <<
 	A command center of sufficient quality to coordinate multiple fleets. Ships with this sort of equipment are always commanded by an Admiral.
 
@@ -304,6 +316,7 @@ SYS_ADMIRALBAY_DESC: <<
 	[img=Plus]40% more effective at repelling boarders than a "Bridge and Crew" of the same size.[/img]
 	[img=Minus]Gives less Control than a regular bridge and crew.[/img]
 >>
+MSG_SYS_ADMIRALBAY: Only one Admiral can operate from a flagship at any time, and no Admiral needs two command centers, right?! Right!
 	SHIELDGEN_DESC: <<
 	Creates a shield around the vessel, blocking some incoming damage.
 
@@ -324,7 +337,7 @@ S_COVARIANT_SHIELD_DESC: <<
 	[img=Plus]Increased capacity.[/img]
 	[img=Minus]Reduced regenration.[/img]
 >>
-
+S_QUANTUM_ARMOR: Quantum Armor
 S_QUANTUM_ARMOR_DESC: <<
 	Neutronium armor mostly shifted out of our physical universe to reduce mass, only to reappear prior to impact and withstand the same amount of firepower.
 
@@ -333,6 +346,8 @@ S_QUANTUM_ARMOR_DESC: <<
 	[img=Minus]Expensive.[/img]
 	[img=Minus]High labor cost.[/img]
 >>
+S_ORE_ARMOR: Raw Armor
+#S_ORE_ARMOR_DESC: WIP Numbers Wall of text
 S_REPAIRBAY_DESC: <<
 	Systems dedicated to assembling and dispensing copious quantities of nanites to repair an allied fleet.
 	
@@ -381,6 +396,7 @@ S_FLAK_DESC: <<
 	[img=Minus]Limited turret firing arc.[/img]
 	[img=Minus]Small explosion radius.[/img]
 >>
+S_BOARDING_PARTY: Boarding Parties
 S_BOARDING_PARTY_DESC: <<
 	Contains all the equipment required to send boarding parties onto an object in space, and attempt to capture it.
 
@@ -550,6 +566,7 @@ S_ORB_EXP_DELIVERY_HULL_DESC: <<
 
 	[img=PlanetType::32;22][b][color=#1c9bb4]Only available when the 'Reclusive Ringworlders' race option is chosen.[/color][/b][/img]
 >>
+S_SUPERSTRUCTURE: Superstructure
 S_SUPERSTRUCTURE_DESC: <<
 	Light-weight metal scaffolding to give structure and definition to the ship.  Somewhat more resistant to damage than most other components, but not as protective per-weight as actual armor.
 

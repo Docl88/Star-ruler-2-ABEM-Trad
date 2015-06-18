@@ -1,0 +1,36 @@
+Subsystem: RemnantArmor
+	Name: #S_REMNANT_ARMOR
+	Description: #S_REMNANT_ARMOR_DESC
+	BaseColor: #008888
+	Elevation: 1
+
+	Tags: LowMaint, Category:Armor
+	Tags: NoCore, NonContiguous, Defense, IsArmor, TankArmor, ExternalSpace
+	Hull: Flagship, Station
+
+	Size := HexSize * Hexes
+
+	Tags: FauxExterior
+	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
+
+	Hex.Resistance := 1
+	Hex.HP := 200 * HexSize
+	Hex.Mass := 2 * HexSize
+
+	DamageResist := ShipSize / 30
+	ImpactLevel := 1.5*ShipSize
+	MinPct := 1/5
+
+	Effect: CapDamage
+		MaxDamage = ImpactLevel
+		MinimumPercent = MinPct
+
+	Effect: DamageResist
+		Resist = DamageResist
+
+	Module: Default
+		Hex.BuildCost := Hex.BuildCost * 5
+		Sprite: Armor4
+
+		AddAdjacentModifier: !tag/IsArmor,hexVar/HP::AddHP(Hex.HP / 6.0)
+		Hex.LaborCost := 3 * HexSize

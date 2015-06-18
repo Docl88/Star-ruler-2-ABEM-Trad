@@ -1,0 +1,31 @@
+Subsystem: OreArmor
+	Name:  #S_ORE_ARMOR Raw Armor
+	Description: #S_ORE_ARMOR_DESC WIP Numbers Wall of text
+	BaseColor: #a9a9a9
+	Elevation: 1
+
+//	Tags: Category:Armor, NoWall
+//	Tags: NoCore, NonContiguous, DefaultUnlock, Defense, TankArmor, ExternalSpace
+	Hull: Flagship, Station,Support
+
+	Size := HexSize * Hexes
+
+//	Tags: FauxExterior
+	Tags: Disabled
+	Ship.ExternalHexes := Ship.ExternalHexes + ExteriorHexes
+
+	Hex.Resistance := 0.5
+	Hex.HP := 40 * HexSize
+	Hex.Mass := 1* HexSize
+
+	Hex.LaborCost := 0
+	Hex.OreCost := 10*HexSize
+	Hex.MaintainCost := 0
+
+	//DamageResist := ShipSize /70.0
+	//Effect: DamageResist
+	//	Resist = DamageResist
+
+	Module: Default
+
+		Sprite: PlateArmor*#ff0432
