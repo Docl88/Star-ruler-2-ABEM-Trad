@@ -1,5 +1,6 @@
 Ability: SensorJammer
 	Name: #ABL_SENSORJAMMER
+	Description: #ABL_SENSORJAMMER_DESC
 	Target: Ship = Object
 	Energy Cost: 300
 	Icon: TechIcons::54

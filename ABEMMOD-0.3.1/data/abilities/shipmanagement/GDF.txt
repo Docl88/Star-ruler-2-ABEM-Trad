@@ -1,7 +1,7 @@
 Ability: GDF
-	Target: OwnShip = Object
 	Name: #ABL_GDF
 	Description: #ABL_GDF_DESC
+	Target: OwnShip = Object
 	Icon: GDF*#ff1010
 	Range: 100
 	TargetFilterNotStatus(OwnShip, GDF)
