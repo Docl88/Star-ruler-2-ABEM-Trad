@@ -10,7 +10,7 @@ Status: LW
 
 Status: Exhausted
 
-	Name: Exhausted
+	Name: #STATUS_EXHAUSTED
 	Description: #STATUS_EXHAUSTED_DESC
 	Icon: Exhaust
 	Unique: True

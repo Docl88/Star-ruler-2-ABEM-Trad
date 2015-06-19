@@ -16,6 +16,7 @@ STATUS_LW_DESC: <<
 
 	Will gain up to 27.5% effectiveness over 60 seconds, then have -50% effectiveness for 4 minutes.
 >>
+STATUS_EXHAUSTED: Exhausted
 STATUS_EXHAUSTED_DESC: <<
 	Exhausted after a difficult battle.
 
@@ -27,6 +28,8 @@ STATUS_MEL_DESC: <<
 
 	Apparent fleet DPS reduced by 1000 for 5 minutes, reducing strength. (Does not actually weaken the fleet.) Must be reapplied after expiration.
 >>
+STATUS_JAMSENSORS: Sensor Jammer
+STATUS_JAMSENSORS_DESC: Long Range Sensors of this ship are offline
 STATUS_ABEMINFILTRATED_DESC: <<
 	Is the victim of a covert insertion by a saboteur. While the saboteur's presence is known to the vessel's crew - or planetary defense coordinators - they lack the equipment and training required to capture him.
 
