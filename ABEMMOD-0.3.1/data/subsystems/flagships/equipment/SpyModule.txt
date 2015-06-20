@@ -14,7 +14,7 @@ Subsystem: SpyModule
 	Hex.Resistance := 0.2
 	Hex.HP := 18 * HexSize
 	Assert: Size>5
-		Message: Infiltration Module must be at least size 5. Add more hexes or increase the ship's size.
+		Message: #S_SPYMODULE_MSG
 
 
 	Requires:

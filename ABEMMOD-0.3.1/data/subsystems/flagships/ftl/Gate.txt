@@ -28,4 +28,4 @@ Subsystem: Gate
 		Hex.LaborCost := 7.3
 
 	Assert: Size >= 5
-		Message: Gate Constructor must be at least size 5.
+		Message: #GATE_MSG

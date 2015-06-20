@@ -1,6 +1,6 @@
 Subsystem: OreArmor
-	Name:  #S_ORE_ARMOR Raw Armor
-	Description: #S_ORE_ARMOR_DESC WIP Numbers Wall of text
+	Name:  #S_ORE_ARMOR
+	Description: #S_ORE_ARMOR_DESC
 	BaseColor: #a9a9a9
 	Elevation: 1
 

@@ -64,6 +64,7 @@ S_CONTROLCHAIR_DESC: <<
 	[img=Minus]Does not repair the ship at all.[/img]
 	[img=Minus]Ship is disabled or destroyed if no control remains.[/img]
 >>
+S_CONTROLCHAIR_MSG: Cannot have more than one Neural Interface Chair.
 
 S_RECALL: Recall Device
 S_RECALL_DESC: <<
@@ -99,6 +100,7 @@ S_PROGENITORCOMPUTER_DESC: <<
 	[img=Minus]Is more expensive than a regular Control Computer.[/img]
 	[img=Minus]Ship is disabled or destroyed if no control remains.[/img]
 >>
+S_PROGENITORCOMPUTER_MSG: Cannot combine Progenitor Control Computers with standard Control Computers.
 SHIPCOMPUTER_DESC: <<
 	An autonomous computer capable of controlling numerous ship systems.
 	
@@ -123,6 +125,7 @@ S_SHRINE_DESC: <<
 	[img=MenuIcons::3;20]Neural Interface Chairs generate 995 Prayer. Control Computers generate a certain amount of Prayer as well.[/img]
 	[img=ResourceIconsSmall::53;22][b][color=#408fc1]Only available when the 'Devout' race option is chosen.[/color][/b][/img]
 >>
+BEAM_AMPLIFIER: Beam Amplifiers
 BEAM_AMPLIFIER_DESC: <<
 	Sophisticated targeting sensors and focused emitters allow a beam weapon to more accurately find its destination and deliver more power per second, increasing its effective range and armor penetration. Unfortunately, the new systems drain the weapon's capacitors faster, and the increased capacitor size is not matched by the power conduits feeding them.
 
@@ -135,6 +138,7 @@ BEAM_AMPLIFIER_DESC: <<
 
 	[i][color=#aaa]Placing more than one beam amplifier on a weapon will continue to increase its range and burst damage, but will also skyrocket its labor costs.[/color][/i]
 >>
+EXTRA_GUN: Dual Mount
 EXTRA_GUN_DESC: <<
 	Sophisticated ammo feeds, power conduits, capacitors and emitters allow for two turrets' worth of weapons to be mounted on a single turret. While this conserves space and building materials, it is more difficult to assemble and maintain. In effect, beam turrets receive improved emitters which double the amount of energy they can channel, while other weapons receive a second barrel/launcher which is discharged halfway through the reloading process of the first one to maintain a consistent rate of fire.
 
@@ -146,6 +150,7 @@ EXTRA_GUN_DESC: <<
 	[img=Minus]Doubles the Supply cost of firing the weapon.
 	[img=Minus]Only one module per subsystem.[/img]
 >>
+S_SHIELDED_AMGEN: Shielded Antimatter Gen
 S_SHIELDED_AMGEN_DESC: <<
 	A sustained matter-antimatter annihilation reaction provides continuous power for the ship. This generator comes with a built-in shield generator to protect it, allowing it to operate at full output - though much of it is used by the shield - even in combat.
 
@@ -195,12 +200,7 @@ OLD_IONENGINE_DESC: <<
 	[img=Minus]Requires power.[/img]
 	[img=Minus]Lower thrust than Rocket Engines at small sizes.[/img]
 >>
-S_RESEARCHLAB_DESC: <<
-	A site where people can do science. Without blowing stuff up.
 
-	[img=Plus]Generates a small amount of research.[/img]
-	[img=Minus]Requires a high amount of power and Control.[/img]
->>
 S_RESUPPLYMODULE_DESC: <<
 	A system which assembles and disseminates supply packages for all fleets in a star system.
 
@@ -227,6 +227,7 @@ S_FLING_DESC: <<
 >>
 GATE: Gate Constructor
 GATE_DESC: Allows the ship to construct into a gate and back.
+GATE_MSG: Gate Constructor must be at least size 5.
 S_GATE_CORE_DESC: <<
 	An artificial wormhole is suspended and maintained just beyond the station's outer hull.
 	
@@ -274,6 +275,7 @@ S_POWERED_ARMOR_DESC: <<
 	[img=Minus]Half the damage resistance of - and just as little health as - Ablative Armor.[/img]
 	[img=Minus]Just as costly as Composite Armor, but also requires power.[/img]
 >>
+S_ZPG: Singularity Core
 S_ZPG_DESC: <<
 	An artificial quantum singularity harnessed to provide immense quantities of power.
 
@@ -282,6 +284,7 @@ S_ZPG_DESC: <<
 	[img=Plus]No maintenance cost.[/img]
 	[img=Minus]Very high construction and Labor costs.[/img]
 	>>
+S_ZPG_MSG: Singularity Core must be at least size 100. Add more hexes to the core or increase the ship's size.
 S_SUPERLASER_DESC: <<
 	A powerful laser cannon capable of channeling enough power to destroy planets.
 
@@ -309,9 +312,17 @@ S_SPYMODULE_DESC: <<
 
 	[img=Plus]The only subsystem capable of countering "Infiltrate" cards or enemy Saboteurs.[/img]
 >>
+S_SPYMODULE_MSG: Infiltration Module must be at least size 5. Add more hexes or increase the ship's size.
 S_NANO_REPAIR: Nano repair
 S_NANO_REPAIR_DESC: Description à faire
 S_RESEARCHLAB: Space Lab
+S_RESEARCHLAB_DESC: <<
+	A site where people can do science. Without blowing stuff up.
+
+	[img=Plus]Generates a small amount of research.[/img]
+	[img=Minus]Requires a high amount of power and Control.[/img]
+>>
+S_RESEARCHLAB2_DESC: Using enourmous amount of energy  we generate research in Space! 
 SYS_ADMIRALBAY: Improved Command Deck
 SYS_ADMIRALBAY_DESC: <<
 	A command center of sufficient quality to coordinate multiple fleets. Ships with this sort of equipment are always commanded by an Admiral.
@@ -415,6 +426,9 @@ S_BOARDING_PARTY_DESC: <<
 	[img=Minus]Can take between 10 to 100 seconds to complete, and has a high cooldown.[/img]
 	[img=MenuIcons::3;20]Objects belonging to a Verdant race cannot be boarded.[/img]
 >>
+S_GUARDIANHULL: Guardian Hull
+S_GUARDIANHULL_DESC: Dummy subsystem only used by the Remnant Guardian. Cannot be boarded.
+S_CARRIER_HULL: Carrier Hull
 S_CARRIER_HULL_DESC: <<
 	Specialized hull architecture allows for easier construction of dedicated carriers.
 	
@@ -424,6 +438,7 @@ S_CARRIER_HULL_DESC: <<
 	[img=Minus]Halves armor health.[/img]
 	[img=MenuIcons::3;20]Cannot be used on ships under size 100.[/img]
 >>
+S_DESTROYER_HULL: Destroyer Hull
 S_DESTROYER_HULL_DESC: <<
 	Specialized hull architecture allows for easier construction of large, focused battleships.
 	
@@ -435,6 +450,7 @@ S_DESTROYER_HULL_DESC: <<
 	[img=Minus]Halves firing arcs.[/img]
 	[img=MenuIcons::3;20]Cannot be used on ships under size 100.[/img]
 >>
+S_STEALTH_HULL: Stealth Hull
 S_STEALTH_HULL_DESC: <<
 	Specialized hull architecture allows for easier construction of maneuverable stealth ships.
 
@@ -445,6 +461,7 @@ S_STEALTH_HULL_DESC: <<
 	[img=Minus]Reduces firing arcs by 25%.[/img]
 	[img=Minus]Halves armor health.[/img]
 >>
+S_RAMJET: Bussard Ramjet
 S_RAMJET_DESC: <<
 	A large scoop that collects particulate matter floating in space and uses them to propel itself.
 
@@ -494,6 +511,10 @@ S_ENGINEERING_BAY_DESC: <<
 	[img=Plus]Has a high repair rate.[/img]
 	[img=Minus]Does not grant any Control.[/img]
 >>
+S_ENGINEERING_BAY_MSG: Engineering Bay must be at least size 5. Increase the bay's hex count or the ship's size.
+S_MINER_HULL: Miner Hull
+S_MINER_HULL_DESC: desc à faire abem_subsystem.txt
+S_HAULER_HULL: Hauler Hull
 S_HAULER_HULL_DESC: <<
 	A specialized hull designed for the transportation of large quantities of support craft between star systems.
 

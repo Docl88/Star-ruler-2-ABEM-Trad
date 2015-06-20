@@ -1,0 +1,32 @@
+Subsystem: BussardRamjet
+	Name: #S_RAMJET
+	Description: #S_RAMJET_DESC
+	BaseColor: #f99a77
+	Picture: OrbitalEngine
+	Elevation: 0
+
+	Tags: BaseCost,Category:Propulsion, NoBackWall, TurnToThrust
+	Tags: ExteriorCore, DefaultUnlock, Engine, HasInternals
+	Hull: Flagship
+
+	OnCheckErrors: designs::checkCoreFacingBackwards
+
+	Size := HexSize * Hexes
+	Thrust := 7 * Size
+	TurnThrust := 0.3 * Size
+	Hex.Mass := HexSize
+
+	Hex.Resistance := 0.2
+	Hex.HP := 18 * HexSize
+
+	Hex.MaintainCost := 0
+	Requires:
+		Command = 1
+
+	Module: Default
+
+	Module: Core
+		Sprite: OrbitalEngine
+		Hex.HP := 2 * Hex.HP
+		Hex.Resistance := 0.35
+		Hex.BuildCost := 2 * Hex.BuildCost
