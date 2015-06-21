@@ -289,8 +289,7 @@ DEUTERIUM_DESC: <<
 >>
 
 CHEMICALS: Produits chimiques
-CHEMICALS_DESC: <<
->>
+CHEMICALS_DESC: Produits chimiques
 
 RARE_METALS: Métaux rares
 RARE_METALS_DESC: <<

@@ -646,6 +646,15 @@ R_SYS_CARRIER_DESC: <<
 
 	[i][bbloc=#S_CARRIER_HULL_DESC/][/i]
 >>
+R_NYLLIRECALL_DESC: <<
+	[color=#aaa][i]New ways of hyperfield manipulation spurred on by recent discoveries about the Progenitors.[/i][/color]
+
+	Unlocks the Recall Device for use on flagships, and the Recall Facility orbital.
+
+	[i]Recall: 
+
+	[bbloc=#ABL_RECALL_DESC/][/i]
+>>
 R_SYS_DESTROYER: Destroyer Architecture
 R_SYS_DESTROYER_DESC: <<
 	[color=#aaa][i]Since the dawn of science fiction, great empires have used destroyers to project their awesome might throughout the galaxy, and now we can, too![/i][/color]

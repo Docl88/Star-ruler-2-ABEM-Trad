@@ -108,6 +108,8 @@ ABL_BOARDING_PARTY_DESC: <<
 	
 	Only one boarding action can be running on an object at any given time, and Verdant-owned objects cannot be boarded. Boarding actions cannot be initiated by ships which are already being boarded. Asteroids and orbitals always have 100 boarding strength.
 >>
+ABL_PROTO_LEVEL3: Former planète (Niveau  3)
+ABL_PROTO_LEVEL3_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 3 de ressources aléatoire.
 ABL_RECALL: Recall
 ABL_RECALL_DESC: Opens a wormhole engulfing the target allied object and immediately depositing it in close proximity to the recalling object.
 ABL_POWERTOW: Power To weapons

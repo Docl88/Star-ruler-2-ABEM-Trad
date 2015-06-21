@@ -75,9 +75,9 @@ NOTIFY_BUST_PLANET: L'empire [color=$2]$1[/color] a activé la [b]Machine de des
 
 ART_SPY_PROBE: Sonde d'espionnage
 ART_SPY_PROBE_DESC: Une sonde activable avec des scanners sophistiqués qui peuvent espionner pour avoir un avantage diplomatique.
-ABL_SPAWN_SPY_PROBE: Activation de la sonde d'espionnage. LA sonde a des scanners sophistiqués qui peuvent espionner pour avoir un avantage diplomatique.
+ABL_SPAWN_SPY_PROBE: Activation de la sonde d'espionnage.
 ABL_SPAWN_SPY_PROBE_DESC: <<
-	Réactiver la sonde d'espionnage en sommeil.
+	Réactiver la sonde d'espionnage en sommeil. La sonde a des scanners sophistiqués qui peuvent espionner pour avoir un avantage diplomatique.
 >>
 STATUS_SPY_PROBE: Sonde d'espionnage
 STATUS_SPY_PROBE_DESC: Ce navire est une ancienne sonde d'espionnage rénové, et elle a collecté des renseignements pour un empire. Il est impossible de dire quel empire a envoyé la sonde.
@@ -223,8 +223,6 @@ ABL_PROTO_LEVEL1: Former planète (Niveau  1)
 ABL_PROTO_LEVEL1_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 1 de ressources aléatoire.
 ABL_PROTO_LEVEL2: Former planète (Niveau  2)
 ABL_PROTO_LEVEL2_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 2 de ressources aléatoire.
-ABL_PROTO_LEVEL3: Former planète (Niveau  3)
-ABL_PROTO_LEVEL3_DESC: Manipuler la formation de la planète en dépensant une grande quantité d'énergies. La planète va produire un niveau 3 de ressources aléatoire.
 
 ART_FRAME_CONSTRUCTOR: Constructeur de Cadre Orbital
 ART_FRAME_CONSTRUCTOR_DESC: <<

@@ -162,4 +162,4 @@ RINGWORLD_DESC: <<
 	[img=ResourceIconsSmall::11;22;#91692c][b][color=#91692c]Requires extremely large amounts of Ore mined from asteroids.[/color][/b][/img]
 >>
 C_ADAMANTIUM: Adamantium
-C_ADAMANTIUM_DESC: Description à créer
+C_ADAMANTIUM_DESC: Description à créer abem_resources.txt
