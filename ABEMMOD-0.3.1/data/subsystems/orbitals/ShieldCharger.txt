@@ -1,0 +1,30 @@
+Subsystem: RechargerModule
+	Name: #S_RECHARGERMODULE
+	Description: #S_RECHARGERMODULE_DESC
+	BaseColor: #683db8
+	TypeColor: #683db8
+	Elevation: 2
+
+	Tags: Category:Equipment, HasInternals
+	Hull: Station
+
+	Size := HexSize * Hexes
+	Hex.Mass := HexSize
+
+
+	Hex.Resistance := 0
+	Hex.HP := 0
+
+	Hex.LaborCost := 0
+	Hook: AddRegionStatus(FastRecharge)
+	Requires:
+		Command = Hexes
+
+	Module: Default
+
+	Module: Core
+		Sprite: TechIcons::48
+		Hex.BuildCost := 450
+		Hex.MaintainCost := 100
+		Hex.HP := 5000
+		Hex.LaborCost := 15

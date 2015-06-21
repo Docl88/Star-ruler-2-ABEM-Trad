@@ -1,0 +1,28 @@
+Subsystem: Fling
+	Name: #ORB_FLING_CORE
+	Description: #S_FLING_DESC
+	BaseColor: #595783
+	TypeColor: #595783
+	Elevation: 2
+
+	Tags: Category:FTL, HasInternals
+	Hull: Station
+
+	Size := HexSize * Hexes
+	Hex.Mass := HexSize
+
+
+	Hex.Resistance := 0
+	Hex.HP := 0
+
+	Hex.LaborCost := 0
+	Hook: IsFlingBeacon()
+
+	Module: Default
+
+	Module: Core
+		Sprite: TechIcons::34*#21cfff
+		Hex.BuildCost := 400
+		Hex.MaintainCost := 200
+		Hex.HP := 5000
+		Hex.LaborCost := 20

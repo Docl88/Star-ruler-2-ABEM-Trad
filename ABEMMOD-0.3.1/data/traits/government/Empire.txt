@@ -16,7 +16,7 @@ Trait: Empire
 	GainInfluenceCard(NamePlanet, Quality=1)
 	GainInfluenceCard(NameFlagship, Quality=2)
 
-	SpawnShip(Transporteur lourd, 10x Chasseur lourd, 15x Vaisseau à faisseau, 25x Vaisseau lance missile, 45x Chasseur)
+	SpawnShip(Transporteur lourd, Empire, 10x Chasseur lourd, 15x Vaisseau à faisseau, 25x Vaisseau lance missile, 45x Chasseur)
 
 	InHomeSystem( MakeAsteroid() )
 	InRandomAdjacentSystem( MakeAsteroid() )

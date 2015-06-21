@@ -1,0 +1,30 @@
+Subsystem: GateCore
+	Name: #ORB_GATE_CORE
+	Description: #S_GATE_CORE_DESC
+	BaseColor: #595783
+	TypeColor: #595783
+	Elevation: 2
+
+	Tags: Category:FTL, HasInternals, Disabled
+	Hull: Station
+
+	Size := HexSize * Hexes
+	Hex.Mass := HexSize
+
+
+	Hex.Resistance := 0
+
+
+	Hex.HP := 0
+	Hook: IsGate()
+	Effect: FTLUpkeep
+		Amount = 0.15
+		
+	Module: Default
+	
+	Module: Core
+		Sprite: Stargate
+		Hex.BuildCost := 400
+		Hex.MaintainCost := 200
+		Hex.LaborCost := 20
+		Hex.HP := 7000

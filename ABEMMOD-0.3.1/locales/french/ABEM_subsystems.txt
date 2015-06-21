@@ -171,6 +171,7 @@ HDSUPPLYMODULE_DESC: <<
 	[img=Minus]Requires power.[/img]
 	[img=Minus]Does not regenerate supply on its own. Power generators and supply depots will still fill it, though.[/img]
 >>
+S_REMNANTSHIELD: Progenitor Shield Generator
 S_REMNANTSHIELD_DESC: <<
 	Incredibly advanced Progenitor technology. Creates a powerful shield around the vessel, blocking some incoming damage.
 
@@ -200,13 +201,15 @@ OLD_IONENGINE_DESC: <<
 	[img=Minus]Requires power.[/img]
 	[img=Minus]Lower thrust than Rocket Engines at small sizes.[/img]
 >>
-
+S_RESUPPLYMODULE: Resupply Module
 S_RESUPPLYMODULE_DESC: <<
 	A system which assembles and disseminates supply packages for all fleets in a star system.
 
 	[img=Plus]Increases the resupply rate of all units in a star system.[/img]
 	[img=MenuIcons::3;20]Only the core is required for the subsystem to operate. Additional hexes provide no benefits whatsoever.[/img]
 >>
+S_GUARDIANHYPERDRIVE: Hyperdrive
+S_GUARDIANHYPERDRIVE_DESC: Allows for hyperdrive navigation. The larger the hyperdrive the faster the FTL speed.
 S_FTLJAMMER_DESC: <<
 	A series of hyperfield exciters which disrupts all enemy FTL technology in a star system.
 
@@ -215,6 +218,7 @@ S_FTLJAMMER_DESC: <<
 	[img=Minus]Making it bigger than is absolutely necessary does nothing but use up space.[/img]
 	[img=Minus]Costs 0.25 FTL per second.[/img]
 >>
+S_FTLJAMMER_MSG: The FTL Jammer must be at least size 100. Increase the jammer's hex count or the station's size.
 S_FLING_DESC: <<
 	A compact fling accelerator is fitted to the station's hull, allowing fling-based FTL near it.
 	
@@ -285,6 +289,7 @@ S_ZPG_DESC: <<
 	[img=Minus]Very high construction and Labor costs.[/img]
 	>>
 S_ZPG_MSG: Singularity Core must be at least size 100. Add more hexes to the core or increase the ship's size.
+S_SUPERLASER: Super Laser
 S_SUPERLASER_DESC: <<
 	A powerful laser cannon capable of channeling enough power to destroy planets.
 
@@ -296,6 +301,7 @@ S_SUPERLASER_DESC: <<
 	[img=Minus]Very limited firing arc.[/img]
 	[img=Minus]Requires high amounts of Control.[/img]
 >>
+S_SUPERLASER_MSG: Superlaser must be at least size 200. Add more hexes to the superlaser or increase the ship's size.
 S_ROBOTICSHIPYARD: Automated Shipyard
 S_ROBOTICSHIPYARD_DESC: <<
 	Salvages raw materials from space, using them to construct new support ships.
@@ -314,14 +320,16 @@ S_SPYMODULE_DESC: <<
 >>
 S_SPYMODULE_MSG: Infiltration Module must be at least size 5. Add more hexes or increase the ship's size.
 S_NANO_REPAIR: Nano repair
-S_NANO_REPAIR_DESC: Description à faire
-S_RESEARCHLAB: Space Lab
+S_NANO_REPAIR_DESC: Description à faire abem_subsystem.txt
+S_RESEARCHLAB: Research Lab
 S_RESEARCHLAB_DESC: <<
 	A site where people can do science. Without blowing stuff up.
 
 	[img=Plus]Generates a small amount of research.[/img]
 	[img=Minus]Requires a high amount of power and Control.[/img]
 >>
+S_RESEARCHLAB_MSG: Research Lab must be at least size 15. Add more hexes to the lab or increase the station's size.
+S_RESEARCHLAB2: Space Lab
 S_RESEARCHLAB2_DESC: Using enourmous amount of energy  we generate research in Space! 
 SYS_ADMIRALBAY: Improved Command Deck
 SYS_ADMIRALBAY_DESC: <<
@@ -338,12 +346,15 @@ MSG_SYS_ADMIRALBAY: Only one Admiral can operate from a flagship at any time, an
 	[img=Plus]Creates regenerating barrier against damage.[/img]
 	[img=Minus]Weakened shields allow some damage through.[/img]
 >>
+S_SUPSHIELD: Shield Generator
 S_SUPSHIELD_DESC: <<
 	Creates a shield around the vessel, blocking some incoming damage. This shield's capacitors must be charged by the support ship's inferior power supply, so it regenerates at a slower rate compared to flagship shielding.
 
 	[img=Plus]Creates regenerating barrier against damage.[/img]
 	[img=Minus]Weakened shields allow some damage through.[/img]
 >>
+S_SUPSHIELD_MSG: Support Shield Generator must be at least size 5. Add more hexes to the generator or increase the ship's size.
+S_COVARIANT_SHIELD: Covariant Shield Generator
 S_COVARIANT_SHIELD_DESC: <<
 	Creates a shield around the vessel, blocking some incoming damage. Covariant shields are more powerful, but they regenerate at a slower rate than their standard counterparts.
 
@@ -407,6 +418,7 @@ S_DEFENSIVEMATRIX_DESC: <<
 	[img=MenuIcons::3;20]For an increased build and maintenance cost, multiple Defensive Matrix Generators can target several flagships simultaneously, be activated sequentially to avoid the 90-second cooldown, or focus on shielding a single ship for a specific period of time.[/img]
 	[img=MenuIcons::3;20][i][bbloc=#ABL_DEFENSIVEMATRIX_DESC/][/i][/img]
 >>
+S_FLAK: Flak Cannon
 S_FLAK_DESC: <<
 	A magnetic cannon that fires explosive shrapnel-filled canisters at immense velocities.
 
@@ -461,6 +473,10 @@ S_STEALTH_HULL_DESC: <<
 	[img=Minus]Reduces firing arcs by 25%.[/img]
 	[img=Minus]Halves armor health.[/img]
 >>
+S_FIGHTER: Fighter Chassis
+S_FIGHTER_DESC: Desc à faire abem_subsystem.txt
+S_MISSILEFRIGATE: Missile Frigate Chassis
+S_MISSILEFRIGATE_DESC: Desc à faire abem_subsystem.txt
 S_RAMJET: Bussard Ramjet
 S_RAMJET_DESC: <<
 	A large scoop that collects particulate matter floating in space and uses them to propel itself.
@@ -468,6 +484,7 @@ S_RAMJET_DESC: <<
 	[img=Plus]Lack of fuel requirements makes its maintenance requirements negligible.[/img]
 	[img=Minus]Extremely low thrust and turn rate.[/img]
 >>
+S_HEAVYRAIL: Heavy Railgun
 S_HEAVYRAIL_DESC: <<
 	A powerful cannon based on the principles behind railgun technology.
 	
@@ -479,6 +496,7 @@ S_HEAVYRAIL_DESC: <<
 	[img=Minus]Projectiles are slower than those from a Railgun Battery.[/img]
 	[img=MenuIcons::3;20]Drains as much power as a Railgun Battery.[/img]
 >>
+S_MATTERDISRUPTOR: Matter Disruptor
 S_MATTERDISRUPTOR_DESC: <<
 	An energy weapon which abuses the gravitational attraction between the parts of its target to deal additional damage.
 	
@@ -487,6 +505,30 @@ S_MATTERDISRUPTOR_DESC: <<
 	[img=Minus]Fires 10 times slower than a Railgun Battery, and deals only 5 times as much damage per shot as a Railgun Battery does.[/img]
 	[img=MenuIcons::3;20]Behaves like a Railgun Battery in every other way, except that it deals energy damage.[/img]
 >>
+S_SWARMER: Swarmer
+S_SWARMER_DESC: <<
+	A concealed tube of rockets rapidly extends, launches a volley of short range rockets, and receeds to reload.
+
+	[img=Plus]High [b][color=#ff8080]damage[/color][/b].[/img]
+	[img=Plus]No firing arc limitations.[/img]
+	[img=Plus]Very effective at piercing armor.[/img]
+	[img=Minus]Must reload after several shots.[/img]
+	[img=Minus]High [b][color=#fefc61]supply cost[/color][/b].[/img]
+>>
+S_TORPEDOLAUNCHER: Torpedo Launcher
+S_TORPEDOLAUNCHER_DESC: Launches massive, slow-moving, guided bombs. These bombs explode in an area around their target.
+S_ROCKETPOD: Rocket Pod
+S_ROCKETPOD_DESC: <<
+	A concealed tube of rockets rapidly extends, launches a volley of short range rockets, and receeds to reload.
+
+	[img=Plus]High [b][color=#ff8080]damage[/color][/b].[/img]
+	[img=Plus]No firing arc limitations.[/img]
+	[img=Plus]Very effective at piercing armor.[/img]
+	[img=Minus]Must reload after several shots.[/img]
+	[img=Minus]High [b][color=#fefc61]supply cost[/color][/b].[/img]
+>>
+S_NUCLEARTORPEDO: Nuclear Torpedo Launcher
+S_NUCLEARTORPEDO_DESC: Launches massive, slow-moving, guided bombs. These bombs explode in an area around their target.
 S_VOIDRAY: Adaptive Laser
 S_VOIDRAY_DESC: <<
 	Advanced sensors attached to a laser allow for the beam to be automatically tuned to deal more damage to a target.
@@ -496,6 +538,7 @@ S_VOIDRAY_DESC: <<
 	[img=MenuIcons::3;20]Takes around 10 seconds of activity to reach maximum damage output.[/img]
 	[img=MenuIcons::3;20]Behaves like a Laser in every other way.[/img]
 >>
+S_RECHARGERMODULE: Power Transmission Array
 S_RECHARGERMODULE_DESC: <<
 	A series of powerful emitters transmitting additional power to any ships in need of it. This power is then harnessed to charge up the ships' shield capacitors.
 	
@@ -513,7 +556,14 @@ S_ENGINEERING_BAY_DESC: <<
 >>
 S_ENGINEERING_BAY_MSG: Engineering Bay must be at least size 5. Increase the bay's hex count or the ship's size.
 S_MINER_HULL: Miner Hull
-S_MINER_HULL_DESC: desc à faire abem_subsystem.txt
+S_MINER_HULL_DESC: <<
+	A specialized hull designed for mining asteroids.
+
+	[img=Plus]Increases shield capacity by 50%.[/img]
+	[img=Plus]Maintenance costs are reduced by 90%.[/img]
+	[img=Minus]No support capacity.[/img]
+	[img=Minus]Weapon base damage is reduced by 90%. This is in addition to being unable to hold supplies.[/img]
+>>
 S_HAULER_HULL: Hauler Hull
 S_HAULER_HULL_DESC: <<
 	A specialized hull designed for the transportation of large quantities of support craft between star systems.
@@ -606,6 +656,7 @@ S_SUPERSTRUCTURE_DESC: <<
 	[img=Plus]Superstructure on the outside of the ship does not use up interior space.[/img]
 	[img=Plus]Cheap.[/img]
 >>
+S_ORBITALTHRUSTER: Orbital Thruster
 S_ORBITALTHRUSTER_DESC: <<
 	A large scoop that collects particulate matter floating in space and uses it to propel the station.
 

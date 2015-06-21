@@ -1,0 +1,63 @@
+Subsystem: FlakCannon
+	Name: #S_FLAK
+	Description: #S_FLAK_DESC
+	BaseColor: #c5f946
+	TypeColor: #c5f946
+	Picture: TechIcons::15
+	Elevation: 2
+
+	Tags: BaseCost, Category:Weapons,WeaponBase, Rotatable, HexLimitArc
+	Tags: ExteriorCore, Weapon, IsProjWeapon, IsRailgun, HasInternals
+	Hull: Flagship, Station
+
+	Size := HexSize * Hexes
+
+	Range := Size + 750
+	Damage := Size * 1.5
+	Reload := 2 * (1.0 + Size/512)
+	Speed := max(100, Range / 15)
+	Spread := 0.015 / max(Range / 600, 1)
+	Tracking := 0.6
+	Pierce := 0.3
+	SupplyCost := Size * 1.5
+	PowerUse := 2.5 * Size
+
+	Hex.HP := 18 * HexSize
+	Hex.Resistance := 0.2
+	Hex.Mass := HexSize
+
+	FireArc := pi
+	Radius := 1.0 + (log(Size) / log(2) * 4.0)
+	Requires:
+		Command = 1
+		Power = PowerUse
+
+	Module: Default
+		Color: #59ff61
+
+	Module: Core
+		Hex.HP := Hex.HP * 3
+		Hex.BuildCost := 5.0 * Hex.BuildCost
+		Hex.Mass := 5.0 * Hex.Mass
+
+		Sprite: TechIcons::15
+
+		Hex.DamageResist := ShipSize / 64.0
+		Color: #59ff61
+		Effect: DamageResist
+			Resist = Hex.DamageResist
+
+	Effector: Flak
+		Range = Range
+		Damage = Damage
+		Reload = Reload
+		Speed = Speed
+		Tracking = Tracking
+		Spread = Spread
+		FireArc = FireArc
+		TargetTolerance = max(pi,FireArc + pi/4)
+		FireTolerance = Spread * 3
+		Pierce = Pierce
+		SupplyCost = SupplyCost * Reload
+		CapOnTarget = 24
+		Radius = Radius
