@@ -227,9 +227,6 @@ S_FLING_DESC: <<
 	[img=Minus]Without a Hyperdrive or Slipstream Generator, at least one flagship/station must remain at the target location or use sublight propulsion for the return trip.[/img]
 	[img=MenuIcons::3;20]Only the core is required for the subsystem to operate. Additional hexes provide no benefits whatsoever.[/img]
 >>
-GATE: Gate Constructor
-GATE_DESC: Allows the ship to construct into a gate and back.
-GATE_MSG: Gate Constructor must be at least size 5.
 S_GATE_CORE_DESC: <<
 	An artificial wormhole is suspended and maintained just beyond the station's outer hull.
 	
