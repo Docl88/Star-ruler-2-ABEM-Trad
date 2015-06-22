@@ -2,10 +2,10 @@ Camp: MediumCamp
 	Frequency: 0.5
 
 	Ship: Kyllaros [Remnant Kyllaros]
-	Ship: 15-30x Gunship
-	Ship: 10-30x Missile Boat
-	Ship: 4-17x Beamship
-	Ship: 0-10x Heavy Gunship
+	Ship: 15-30x Chasseur
+	Ship: 10-30x Vaisseau lance missile
+	Ship: 4-17x Vaisseau à faisseau
+	Ship: 0-10x Chasseur lourd
 	Pickup: SubsystemsUpgrade
 		Name: #C_SUBSYSTEMSUPGRADE
 		Description: #C_SUBSYSTEMSUPGRADE_DESC

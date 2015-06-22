@@ -1,5 +1,5 @@
 Shipset: Progenitor
-	Name: #RWPROGENITOR
+	Name: Progenitor
 	Available: Yes
 	
 	Hull: RWTitan
